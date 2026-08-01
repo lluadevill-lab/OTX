@@ -1,0 +1,11 @@
+Module
+  name: game_skillupgrade
+  description: Skill Upgrade System
+  author: Custom
+  website: none
+  sandboxed: true
+  autoload: true
+  autoload-priority: 1000
+  scripts: [ game_skillupgrade ]
+  @onLoad: init()
+  @onUnload: terminate()

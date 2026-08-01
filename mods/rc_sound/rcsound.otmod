@@ -1,0 +1,25 @@
+Module
+  name: rc_sound
+  description: Tibia with sound and effects
+  author: Adventure 
+  website: none
+  
+  autoload: true
+  autoload-priority: 1000
+  sandbox: true
+  
+  scripts: [ rcsound, rc_effects, rc_items, rc_rain, rc_sound_emitters ]
+  
+  @onLoad: |
+    initSound()
+    initEffects()
+    initItemSounds()
+    initRain()
+    initEmitters()      
+
+  @onUnload: |
+    terminateRain() 
+    terminateItemSounds()
+    terminateEffects()
+    terminateSound()
+    terminateEmitters()

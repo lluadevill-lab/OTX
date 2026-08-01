@@ -1,0 +1,21 @@
+MiniWindow
+  id: sfxDebugWindow
+  !text: tr('SFX Debug')
+  width: 250
+  height: 220
+  icon: /images/audio
+  &save: true
+
+  MiniWindowContents
+    padding: 4
+    layout: verticalBox
+
+    Label
+      text: 'Eventos Detectados:'
+      font: verdana-11px-monochrome
+      margin-bottom: 3
+
+    ScrollablePanel
+      id: sfxLog
+      layout: verticalBox
+      anchors.fill: parent

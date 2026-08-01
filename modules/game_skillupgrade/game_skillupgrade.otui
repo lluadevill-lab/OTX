@@ -1,0 +1,167 @@
+SkillSlot < Panel
+  size: 95 90
+  background-color: #1a1a1a
+  border: 1 #333333
+  
+  UIWidget
+    id: skillImage
+    size: 64 64
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: 5
+    image-size: 64 64
+    phantom: true
+  
+  Label
+    id: skillName
+    anchors.top: skillImage.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: 3
+    text: Skill
+    text-align: center
+    font: verdana-11px-rounded
+    color: #ffffff
+    text-auto-resize: true
+  
+  Label
+    id: skillValue
+    anchors.top: skillName.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: 1
+    text: 0
+    text-align: center
+    font: verdana-11px-rounded
+    color: #aaaaaa
+  
+  Button
+    id: upgradeBtn
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-bottom: 5
+    size: 70 18
+    text: 10 pts
+    font: verdana-11px-rounded
+    color: #55ff55
+
+MainWindow
+  id: skillUpgradeWindow
+  size: 440 400
+  padding: 0
+  background-color: #0d0d0d
+  border: 2 #444444
+  draggable: true
+  @onEscape: hide()
+  
+  Panel
+    id: headerPanel
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    height: 45
+    background-color: #151515
+    
+    Label
+      id: titleLabel
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+      margin-left: 15
+      text: Upgrade de Skills
+      font: verdana-11px-rounded
+      color: #ffcc00
+    
+    UIButton
+      id: closeBtn
+      anchors.right: parent.right
+      anchors.verticalCenter: parent.verticalCenter
+      margin-right: 10
+      size: 22 22
+      text: X
+      font: verdana-11px-rounded
+      color: #ff5555
+      background-color: #00000066
+    
+    Label
+      id: pointsLabel
+      anchors.right: closeBtn.left
+      anchors.verticalCenter: parent.verticalCenter
+      margin-right: 15
+      text: Pontos: 0
+      font: verdana-11px-rounded
+      color: #55ff55
+      text-auto-resize: true
+
+  Panel
+    id: tabPanel
+    anchors.top: headerPanel.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    height: 35
+    background-color: #111111
+    
+    Button
+      id: tabSkills
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+      margin-left: 15
+      size: 120 26
+      text: Combat Skills
+      font: verdana-11px-rounded
+      color: #ffffff
+
+    Button
+      id: tabAttributes
+      anchors.left: tabSkills.right
+      anchors.verticalCenter: parent.verticalCenter
+      margin-left: 10
+      size: 120 26
+      text: Attributes
+      font: verdana-11px-rounded
+      color: #888888
+
+  Label
+    id: feedbackLabel
+    anchors.top: tabPanel.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    height: 20
+    margin-top: 5
+    text: 
+    text-align: center
+    font: verdana-11px-rounded
+    color: #55ff55
+
+  ScrollablePanel
+    id: scrollArea
+    anchors.top: feedbackLabel.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    margin: 10
+    margin-top: 5
+    vertical-scrollbar: scrollBar
+    
+    Panel
+      id: gridPanel
+      anchors.top: parent.top
+      anchors.left: parent.left
+      anchors.right: parent.right
+      padding: 5
+      layout:
+        type: grid
+        cell-size: 100 125
+        cell-spacing: 3
+        num-columns: 4
+        fit-children: true
+
+  VerticalScrollBar
+    id: scrollBar
+    anchors.top: feedbackLabel.bottom
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    margin-top: 5
+    margin-bottom: 10
+    margin-right: 3
+    step: 28
+    pixels-scroll: true

@@ -1,0 +1,11 @@
+MainWindow
+  id: houseBuilderWindow
+  size: 300 200
+  text: House Builder
+  visible: false
+
+  Button
+    id: btnWall
+    text: Build Wall
+    anchors.centerIn: parent
+    @onClick: sendBuild(1025)

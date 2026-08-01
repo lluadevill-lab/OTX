@@ -1,0 +1,11 @@
+Module
+  name: game_survival
+  description: Survival Status System
+  author: Custom
+  website: none
+  sandboxed: true
+  autoload: true
+  autoload-priority: 1000
+  scripts: [ game_survival ]
+  @onLoad: init()
+  @onUnload: terminate()

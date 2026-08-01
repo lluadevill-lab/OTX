@@ -1,0 +1,121 @@
+SurvivalSlot < Panel
+  size: 95 80
+  background-color: #1a1a1a
+  border: 1 #333333
+  phantom: true
+  
+  Label
+    id: statusName
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: 1
+    text-align: center
+    font: verdana-11px-rounded
+    color: #ffffff
+  
+  Panel
+    id: statusBarBg
+    anchors.top: statusName.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: 3
+    size: 70 5
+    background-color: #111111
+    border: 1 #000000
+    
+    Panel
+      id: statusBar
+      anchors.top: parent.top
+      anchors.left: parent.left
+      anchors.bottom: parent.bottom
+      width: 70
+      background-color: #55ff55
+  
+  Label
+    id: statusValue
+    anchors.top: statusBarBg.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: 5
+    text: 100%
+    text-align: center
+    font: verdana-11px-rounded
+    color: #55ff55
+
+MainWindow
+  id: survivalWindow
+  size: 448 65
+  padding: 0
+  background-color: #0d0d0d
+  border: 2 #444444
+  draggable: true
+  focusable: false
+  @onEscape: hide()
+  
+  Panel
+    id: headerPanel
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    height: 10
+    background-color: #151515
+    
+    Label
+      id: titleLabel
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+      margin-left: 15
+      text: 
+      font: verdana-11px-rounded
+      color: #ffcc00
+    
+    UIButton
+      id: closeBtn
+      anchors.right: parent.right
+      anchors.verticalCenter: parent.verticalCenter
+      margin-right: 5
+      size: 10 10
+      text: X
+      font: verdana-11px-rounded
+      color: #ff5555
+      background-color: #00000066
+    
+    UIButton
+      id: toggleBtn
+      anchors.right: closeBtn.left
+      anchors.verticalCenter: parent.verticalCenter
+      margin-right: 5
+      size: 10 10
+      text: T
+      font: verdana-11px-rounded
+      color: #FFEA00 
+      background-color: #00000066
+      !tooltip: 'Horizontal/Vertical'
+
+  Panel
+    id: contentPanel
+    anchors.top: headerPanel.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    padding: 5
+    layout:
+      type: grid
+      cell-size: 85 40
+      cell-spacing: 3
+      num-columns: 5
+
+    SurvivalSlot
+      id: slotHunger
+
+    SurvivalSlot
+      id: slotThirst
+
+    SurvivalSlot
+      id: slotFatigue
+
+    SurvivalSlot
+      id: slotOxygen
+
+    SurvivalSlot
+      id: slotTemperature

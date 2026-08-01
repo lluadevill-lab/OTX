@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<mod name="advanced_sfx" version="1.0" author="LuaDevil" enabled="yes">
+    <script>advanced_sfx.lua</script>
+</mod>

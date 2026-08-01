@@ -1,0 +1,10 @@
+Module
+  name: House Builder
+  description: Construção de casas
+  author: LuaDEV_iL
+  version: 1.0
+  autoload: true
+  sandboxed: true
+  scripts: [ house_builder ]
+  @onLoad: init()
+  @onUnload: terminate()

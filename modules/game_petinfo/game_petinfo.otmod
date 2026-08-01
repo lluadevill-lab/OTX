@@ -1,0 +1,14 @@
+Module
+  name: game_petinfo
+  description: Pet Interface
+  author: User
+  website: none
+  
+  autoload: true
+  autoload-priority: 1000
+  
+  sandboxed: true
+  scripts: [ game_petinfo ]
+  dependencies: [ game_interface ]
+  @onLoad: init()
+  @onUnload: terminate()
