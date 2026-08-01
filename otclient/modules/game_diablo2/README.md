@@ -1,0 +1,1 @@
+OTClient Diablo II module - copy to otclient/modules/game_diablo2/ and enable. Press F8 for skill tree clickable.

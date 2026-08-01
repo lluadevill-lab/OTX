@@ -147,4 +147,8 @@
 	<event type="advance" name="AdvanceSave" script="others/advance_save.lua" />
 	<event type="death" name="WhiteDeerDeath" script="others/whitedeer.lua" />
 	<event type="death" name="WhiteDeerScoutsDeath" script="others/whitedeer_scouts.lua" />
+  <event type="extendedopcode" name="D2ExtendedOpcode" script="diablo2/extendedopcode.lua"/>
+  <event type="think" name="D2Stamina" script="diablo2/stamina_tick.lua"/>
+  <event type="death" name="D2GoldLoss" script="diablo2/gold_loss.lua"/>
+  <event type="kill" name="D2CorpseLoot" script="diablo2/corpse_loot.lua"/>
 </creaturescripts>

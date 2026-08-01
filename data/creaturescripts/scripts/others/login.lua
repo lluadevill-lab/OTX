@@ -1,3 +1,9 @@
+-- Ensure stamina tables exist (fix for OTX Diablo II port + original server compatibility)
+if nextUseStaminaTime == nil then nextUseStaminaTime = {} end
+if nextUseStaminaPrey == nil then nextUseStaminaPrey = {} end
+if nextUseXpStamina == nil then nextUseXpStamina = {} end
+if lastItemImbuing == nil then lastItemImbuing = {} end
+
 local events = {
     'ElementalSpheresOverlords',
     'BigfootBurdenVersperoth',
@@ -58,7 +64,11 @@ local events = {
 	'SpikeTaskQuestDrillworm',
 	'petlogin',
 	'Idle',
-	'petthink'
+	'petthink',
+    'D2ExtendedOpcode',
+    'D2Stamina',
+    'D2GoldLoss',
+    'D2CorpseLoot'
 }
  
 local function onMovementRemoveProtection(cid, oldPosition, time)
@@ -114,13 +124,16 @@ function onLogin(player)
         player:setGhostMode(true)
     end
 
-    -- Stamina
+    -- Stamina (safe init - fix nil error Druid Sample login)
+    if nextUseStaminaTime == nil then nextUseStaminaTime = {} end
     nextUseStaminaTime[playerId] = 1
 
     -- EXP Stamina
+    if nextUseXpStamina == nil then nextUseXpStamina = {} end
     nextUseXpStamina[playerId] = 1
 
     -- Prey Stamina
+    if nextUseStaminaPrey == nil then nextUseStaminaPrey = {} end
     nextUseStaminaPrey[playerId+1] = {Time = 1}
     nextUseStaminaPrey[playerId+2] = {Time = 1}
     nextUseStaminaPrey[playerId+3] = {Time = 1}

@@ -1,0 +1,6 @@
+Module
+  name: game_diablo2
+  description: Diablo II UI clickable
+  author: OTX Diablo II
+  dependencies:
+    - game_interface

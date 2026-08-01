@@ -1,8 +1,10 @@
 dofile('data/lib/libs.lua')
--- Diablo II rules layer (attributes, breakpoints, resistances, leech, MF and runewords).
+-- Diablo II rules layer
 -- Keep this after libs.lua so it can use the server compatibility helpers.
 dofile('data/lib/diablo2.lua')
 dofile('data/lib/diablo2_rules.lua')
+-- Diablo II Complete - TODAS mecânicas
+if io.open('data/lib/diablo2_complete.lua','r') then dofile('data/lib/diablo2_complete.lua') end
 
 NOT_MOVEABLE_ACTION = 8000
 PARTY_PROTECTION = 1 -- Set to 0 to disable.
@@ -10,6 +12,12 @@ ADVANCED_SECURE_MODE = 1 -- Set to 0 to disable.
 
 STORAGEVALUE_PROMOTION = 30018
 
+
+-- Stamina - unconditional init for OTX 3.10 compatibility (fix Druid Sample login nil)
+nextUseStaminaTime = nextUseStaminaTime or {}
+nextUseStaminaPrey = nextUseStaminaPrey or {}
+nextUseXpStamina = nextUseXpStamina or {}
+lastItemImbuing = lastItemImbuing or {}
 
 ropeSpots = {384, 418, 8278, 8592, 13189, 14435, 14436, 15635, 19518, 26019, 24621, 24622, 24623, 24624}
 
