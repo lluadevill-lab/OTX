@@ -37693,4 +37693,15 @@
 		<attribute key="duration" value="500" />
 		<attribute key="corpseType" value="blood" />
 	</item>
+
+	<!-- Diablo II base items and currencies -->
+	<item id="50000" name="Horadric Cube"><attribute key="weight" value="100"/><attribute key="containerSize" value="12"/></item>
+	<item id="50001" name="Chipped Ruby"><attribute key="weight" value="1"/></item>
+	<item id="50002" name="Tal Rune"><attribute key="weight" value="1"/></item>
+	<item id="50003" name="Thul Rune"><attribute key="weight" value="1"/></item>
+	<item id="50004" name="Ort Rune"><attribute key="weight" value="1"/></item>
+	<item id="50005" name="Amn Rune"><attribute key="weight" value="1"/></item>
+	<item id="50006" name="Gheed's Fortune"><attribute key="weight" value="1"/></item>
+	<item id="50007" name="Annihilus"><attribute key="weight" value="1"/></item>
+	<item id="50008" name="Hellfire Torch"><attribute key="weight" value="1"/></item>
 </items>

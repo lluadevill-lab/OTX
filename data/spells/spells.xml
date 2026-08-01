@@ -895,4 +895,9 @@
 	<instant name="the ravager heal" words="###398" aggressive="0" blockwalls="1" needtarget="0" needlearn="1" script="monster/the ravager heal.lua" />
 	<instant name="canopic jar heal" words="###390" aggressive="0" blockwalls="1" needtarget="0" needlearn="1" script="monster/canopic jar heal.lua" />
 	<instant name="twisted shaper ice" words="###391" direction="1" aggressive="1" blockwalls="1" needtarget="0" range="3" needlearn="1" script="monster/twisted shaper ice.lua" />
+
+	<!-- Diablo II class skills -->
+	<instant group="attack" name="Blessed Hammer" words="diablo hammer" lvl="18" mana="80" cooldown="4000" groupcooldown="2000" needtarget="0" script="diablo2/blessed_hammer.lua"><vocation name="Paladin"/><vocation name="Royal Paladin"/></instant>
+	<instant group="attack" name="Whirlwind" words="diablo whirlwind" lvl="30" mana="120" cooldown="5000" groupcooldown="2000" needweapon="1" script="diablo2/whirlwind.lua"><vocation name="Knight"/><vocation name="Elite Knight"/></instant>
+	<instant group="support" name="Conviction" words="diablo conviction" lvl="30" mana="100" cooldown="3000" groupcooldown="2000" needtarget="1" script="diablo2/conviction.lua"><vocation name="Paladin"/><vocation name="Royal Paladin"/></instant>
 </spells>
