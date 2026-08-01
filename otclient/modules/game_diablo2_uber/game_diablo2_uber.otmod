@@ -1,5 +1,10 @@
 Module
   name: game_diablo2_uber
-  description: Uber Diablo & Pandemonium - opcode 158
+  description: Diablo II Uber
   author: OTX Diablo II Port
-  category: game
+  website: https://github.com/lluadevill-lab/OTX
+  sandboxed: true
+  scripts: [ game_diablo2_uber ]
+  dependencies: [ game_interface, game_skills, client_topmenu ]
+  @onLoad: init()
+  @onUnload: terminate()

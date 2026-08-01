@@ -1,5 +1,10 @@
 Module
   name: game_diablo2_runewords
-  description: Runewords Lista - opcode 156
+  description: Diablo II Runewords
   author: OTX Diablo II Port
-  category: game
+  website: https://github.com/lluadevill-lab/OTX
+  sandboxed: true
+  scripts: [ game_diablo2_runewords ]
+  dependencies: [ game_interface, game_skills, client_topmenu ]
+  @onLoad: init()
+  @onUnload: terminate()

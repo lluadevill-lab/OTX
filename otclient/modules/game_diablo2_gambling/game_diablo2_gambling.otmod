@@ -1,5 +1,10 @@
 Module
   name: game_diablo2_gambling
-  description: Gheed Gambling - opcode 152
+  description: Diablo II Gambling
   author: OTX Diablo II Port
-  category: game
+  website: https://github.com/lluadevill-lab/OTX
+  sandboxed: true
+  scripts: [ game_diablo2_gambling ]
+  dependencies: [ game_interface, game_skills, client_topmenu ]
+  @onLoad: init()
+  @onUnload: terminate()

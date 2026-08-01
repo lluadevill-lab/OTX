@@ -1118,4 +1118,8 @@
 	<monster name="The Summoner" file="Diablo2/The_Summoner.xml" />
 	<monster name="Nihlathak" file="Diablo2/Nihlathak.xml" />
 	<monster name="Rakanishu" file="Diablo2/Rakanishu.xml" />
+	<monster name="Rogue Scout" file="Diablo2/Rogue_Scout.xml" />
+	<monster name="Desert Mercenary" file="Diablo2/Desert_Mercenary.xml" />
+	<monster name="Iron Wolf" file="Diablo2/Iron_Wolf.xml" />
+	<monster name="Barbarian Merc" file="Diablo2/Barbarian_Merc.xml" />
 </monsters>

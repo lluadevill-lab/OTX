@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Iron Wolf" nameDescription="a iron wolf" race="blood" experience="0" speed="250" manacost="0">
+  <health now="600" max="600"/>
+  <look type="130" head="0" body="0" legs="0" feet="0" corpse="6000"/>
+  <targetchange interval="2000" chance="20"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="0"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+    <flag canwalkonenergy="0"/>
+    <flag canwalkonfire="0"/>
+    <flag canwalkonpoison="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1500" min="-50" max="-150"/>
+  </attacks>
+  <defenses defense="30" armor="30">
+    <defense name="healing" interval="2000" chance="15" min="50" max="150"/>
+  </defenses>
+  <elements>
+    <element firePercent="10" icePercent="10" energyPercent="10" earthPercent="10" holyPercent="0" deathPercent="0" physicalPercent="0"/>
+  </elements>
+  <immunities>
+    <immunity name="paralyze" condition="0"/>
+    <immunity name="invisible" condition="1"/>
+  </immunities>
+  <voices interval="5000" chance="5">
+    <voice sentence="For you, master!"/>
+  </voices>
+  <loot>
+  </loot>
+</monster>

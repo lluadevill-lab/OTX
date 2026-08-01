@@ -1,5 +1,10 @@
 Module
   name: game_diablo2_cube
-  description: Horadric Cube Container - opcode 153
+  description: Diablo II Cube
   author: OTX Diablo II Port
-  category: game
+  website: https://github.com/lluadevill-lab/OTX
+  sandboxed: true
+  scripts: [ game_diablo2_cube ]
+  dependencies: [ game_interface, game_skills, client_topmenu ]
+  @onLoad: init()
+  @onUnload: terminate()

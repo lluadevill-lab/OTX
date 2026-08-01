@@ -1,5 +1,10 @@
 Module
   name: game_diablo2_stash
-  description: Stash Personal/Shared - opcode 154
+  description: Diablo II Stash
   author: OTX Diablo II Port
-  category: game
+  website: https://github.com/lluadevill-lab/OTX
+  sandboxed: true
+  scripts: [ game_diablo2_stash ]
+  dependencies: [ game_interface, game_skills, client_topmenu ]
+  @onLoad: init()
+  @onUnload: terminate()
