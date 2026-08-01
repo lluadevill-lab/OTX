@@ -63,3 +63,14 @@ function D2C.playersScaling(players, baseHP, baseXP, baseNoDrop)
   local nodrop = math.max(0, baseNoDrop - (players-1)*10) -- reduced nodrop
   return hp, xp, nodrop
 end
+
+-- Safe level helper - must be defined early before other modules use it
+function D2C.safeLevel(creature)
+  if not creature then return 1 end
+  if creature.getLevel then
+    local ok, lvl = pcall(function() return creature:getLevel() end)
+    if ok and lvl and type(lvl)=="number" and lvl>0 then return lvl end
+  end
+  if creature.isMonster and creature:isMonster() then return 20 end
+  return 1
+end

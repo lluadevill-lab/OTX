@@ -1,12 +1,7 @@
 -- Master loader for Diablo II Complete - call from global.lua
--- Ensures backward compatibility with old D2, D2R modules
-
--- Avoid double load
 if D2C and D2C.LOADED then return end
-
 dofile('data/lib/diablo2/init.lua')
 
--- Compatibility shims for old API
 D2 = D2 or {}
 D2R = D2R or {}
 D2.get = D2.get or function(p,s) return D2C.getAttr(p,s) end
@@ -22,65 +17,52 @@ D2R.mf = D2R.mf or function(mf,q)
   return e[q] or mf
 end
 
--- Export global helpers for spells/actions
 D2C.LOADED = true
 
--- Hooks for combat integration (to be called from C++ or Lua creaturescripts)
 function onD2Hit(attacker, defender, damage, params)
-  -- params: ar, def, itd, cs, ds, cb, ow, kb, leech, ctc
   params = params or {}
-  local hitChance = D2C.hitChance(attacker, defender, params.ar or 100, params.def or 50, params.itd)
+  if not attacker or not defender then return damage or 0, "hit" end
+  local okHit, hitChance = pcall(function() return D2C.hitChance(attacker, defender, params.ar or 100, params.def or 50, params.itd) end)
+  if not okHit then hitChance = 85 end
   local roll = math.random(100)
   if roll > hitChance then return 0, "miss" end
-
-  -- Block check
-  local block = D2C.blockChance(defender, params.shieldBlock or 20, params.running)
+  local block = 0
+  local okBlock, b = pcall(function() return D2C.blockChance(defender, params.shieldBlock or 20, params.running) end)
+  if okBlock then block = b end
   if math.random(100) <= block then return 0, "blocked" end
-
-  -- Crushing Blow
   local cbDmg = 0
   if params.cb and math.random(100) <= params.cb then
-    cbDmg = D2C.crushingBlow(defender, params.isBoss, defender:isPlayer())
-    damage = damage + cbDmg
+    local okCB, dmgCB = pcall(function() return D2C.crushingBlow(defender, params.isBoss, defender.isPlayer and defender:isPlayer() or false) end)
+    if okCB then damage = damage + dmgCB end
   end
-
-  -- Deadly/Critical
-  damage = D2C.applyDeadly(damage, params.cs or 0, params.ds or 0)
-
-  -- Absorption
-  damage = D2C.absorb(damage, params.fixedAbsorb or 0, params.pctAbsorb or 0, params.resist or 0)
-
-  -- Leech
-  if params.lifeLeech or params.manaLeech then
-    D2C.applyLeech(attacker, damage, params.lifeLeech or 0, params.manaLeech or 0)
-  end
-
-  -- Open Wounds
+  local okDeadly, dmgDeadly = pcall(function() return D2C.applyDeadly(damage, params.cs or 0, params.ds or 0) end)
+  if okDeadly then damage = dmgDeadly end
+  local okAbs, dmgAbs = pcall(function() return D2C.absorb(damage, params.fixedAbsorb or 0, params.pctAbsorb or 0, params.resist or 0) end)
+  if okAbs then damage = dmgAbs end
+  if params.lifeLeech or params.manaLeech then pcall(function() D2C.applyLeech(attacker, damage, params.lifeLeech or 0, params.manaLeech or 0) end) end
   if params.ow and math.random(100) <= params.ow then
-    local owDmg, dur = D2C.applyOpenWounds(defender, attacker:getLevel(), 8)
-    damage = damage + math.floor(owDmg/8) -- first tick
+    pcall(function()
+      local owDmg = D2C.applyOpenWounds(defender, D2C.safeLevel(attacker), 8)
+      damage = damage + math.floor(owDmg/8)
+    end)
   end
-
-  -- Knockback
-  if params.kb then D2C.knockback(attacker, defender, true) end
-
-  -- CtC on striking
-  if params.ctc then D2C.triggerCtC(attacker, "onStriking", params.ctc) end
-
+  if params.kb then pcall(function() D2C.knockback(attacker, defender, true) end) end
+  if params.ctc then pcall(function() D2C.triggerCtC(attacker, "onStriking", params.ctc) end) end
   return damage, "hit"
 end
 
 function onD2Death(monster, killer)
-  -- corpse, shatter, loot shared
-  local shattered = D2C.onMonsterDeathFrozenCheck(monster, killer)
-  -- loot shared
+  local shattered = false
+  pcall(function() shattered = D2C.onMonsterDeathFrozenCheck(monster, killer) end)
   local playersNearby = {}
-  for _, p in ipairs(Game.getSpectators(monster:getPosition(), false, false, 10,10,10,10)) do
-    if p:isPlayer() then table.insert(playersNearby, p:getId()) end
+  if Game and Game.getSpectators and monster and monster.getPosition then
+    local ok, specs = pcall(function() return Game.getSpectators(monster:getPosition(), false, false, 10,10,10,10) end)
+    if ok and specs then
+      for _, p in ipairs(specs) do if p.isPlayer and p:isPlayer() then table.insert(playersNearby, p:getId()) end end
+    end
   end
-  D2C.dropLootShared(monster, {{name="Gold", count=math.random(50,200)}}, monster:getPosition(), playersNearby)
-  -- SoJ counter for Uber Diablo if monster drops SoJ? Alternatively sold check elsewhere
+  pcall(function() D2C.dropLootShared(monster, {{name="Gold", count=math.random(50,200)}}, monster:getPosition(), playersNearby) end)
   return not shattered
 end
 
-print(">> Diablo II Complete Master Loaded")
+print(">> Diablo II Complete Master Loaded - safeLevel + pcall")
