@@ -154,14 +154,23 @@ function getDistanceBetween(firstPosition, secondPosition)
 	return posDif
 end
 
-table.contains = function(array, value)
-	for _, targetColumn in pairs(array) do
-		if targetColumn == value then
-			return true
-		end
-	end
-	return false
+-- Robust table.contains that handles both (array, value) and (string, table) usages from OTX and Diablo II port
+table.contains = function(a, b)
+  if type(a) == "table" and (type(b) == "string" or type(b) == "number") then
+    for _, v in pairs(a) do if v == b then return true end end
+    return false
+  elseif type(a) == "string" and type(b) == "table" then
+    for _, v in pairs(b) do if type(v)=="string" and a:find(v,1,true) then return true end end
+    return false
+  elseif type(a) == "table" and type(b) == "table" then
+    for _, v in pairs(b) do for _, w in pairs(a) do if w==v then return true end end end
+    return false
+  else return a==b end
 end
+table.isStrIn = table.contains
+
+
+
 
 string.split = function(str, sep)
 	local res = {}
