@@ -1,0 +1,5 @@
+Module
+  name: game_diablo2_stash
+  description: Stash Personal/Shared - opcode 154
+  author: OTX Diablo II Port
+  category: game

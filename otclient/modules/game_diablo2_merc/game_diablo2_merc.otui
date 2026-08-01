@@ -1,0 +1,14 @@
+MainWindow
+  id: game_diablo2_mercWindow
+  !text: tr('Mercenarios Act')
+  size: 350 300
+  @onEscape: self:hide()
+  Label
+    id: infoLabel
+    text: Mercenarios Act - opcode 157 - Clique nos botoes
+  Button
+    id: closeButton
+    !text: tr('Fechar')
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    @onClick: self:getParent():hide()

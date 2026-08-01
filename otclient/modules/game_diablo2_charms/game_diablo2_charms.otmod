@@ -1,0 +1,5 @@
+Module
+  name: game_diablo2_charms
+  description: Charms Inventario - opcode 155
+  author: OTX Diablo II Port
+  category: game

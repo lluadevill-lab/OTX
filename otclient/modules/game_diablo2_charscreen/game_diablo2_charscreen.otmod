@@ -1,0 +1,5 @@
+Module
+  name: game_diablo2_charscreen
+  description: Character Screen - opcode 151
+  author: OTX Diablo II Port
+  category: game

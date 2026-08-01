@@ -1,0 +1,5 @@
+Module
+  name: game_diablo2_loot
+  description: Loot Compartilhado - opcode 159
+  author: OTX Diablo II Port
+  category: game

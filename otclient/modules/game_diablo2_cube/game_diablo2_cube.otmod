@@ -1,0 +1,5 @@
+Module
+  name: game_diablo2_cube
+  description: Horadric Cube Container - opcode 153
+  author: OTX Diablo II Port
+  category: game

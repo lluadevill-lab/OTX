@@ -1,0 +1,14 @@
+MainWindow
+  id: game_diablo2_uberWindow
+  !text: tr('Uber Diablo & Pandemonium')
+  size: 350 300
+  @onEscape: self:hide()
+  Label
+    id: infoLabel
+    text: Uber Diablo & Pandemonium - opcode 158 - Clique nos botoes
+  Button
+    id: closeButton
+    !text: tr('Fechar')
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    @onClick: self:getParent():hide()
