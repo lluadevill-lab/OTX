@@ -1117,4 +1117,13 @@
 	<action itemid="15572" script="valuables/randomitems.lua" />
 	<action itemid="18215" script="valuables/randomitems.lua" />
 
+
+  <!-- Diablo II Complete -->
+  <action itemid="2307" script="diablo2/horadric_cube.lua" /> <!-- cube item -->
+  <action itemid="2155" script="diablo2/charm_equip.lua" /> <!-- charms example -->
+  <action itemid="2143" script="diablo2/runeword_socket.lua" /> <!-- white rune -->
+  <action itemid="2144" script="diablo2/runeword_socket.lua" />
+  <action itemid="2145" script="diablo2/runeword_socket.lua" />
+  <action itemid="2146" script="diablo2/runeword_socket.lua" />
+
 </actions>
