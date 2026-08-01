@@ -52,6 +52,9 @@
 	<!--Tutors -->
 	<talkaction words="/mute" separator=" " script="mute.lua" />
 
+	<!-- Diablo II player interface -->
+	<talkaction words="!d2status" script="d2status.lua" />
+
 	<!-- player talkactions -->
 	<talkaction words="!buyhouse" script="buyhouse.lua" />
 	<talkaction words="!leavehouse" script="leavehouse.lua" />

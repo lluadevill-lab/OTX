@@ -1,4 +1,7 @@
 dofile('data/lib/libs.lua')
+-- Diablo II rules layer (attributes, breakpoints, resistances, leech, MF and runewords).
+-- Keep this after libs.lua so it can use the server compatibility helpers.
+dofile('data/lib/diablo2.lua')
 
 NOT_MOVEABLE_ACTION = 8000
 PARTY_PROTECTION = 1 -- Set to 0 to disable.
