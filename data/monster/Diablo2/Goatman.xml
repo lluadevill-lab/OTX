@@ -36,7 +36,7 @@
   </voices>
     <loot>
     <item id="2148" countmax="120" chance="100000" />
-    <item id="40003" countmax="1" chance="4000" />
-    <item id="40006" countmax="1" chance="3000" />
+    <item id="2266" countmax="1" chance="4000" />
+    <item id="2274" countmax="1" chance="3000" />
   </loot>
 </monster>

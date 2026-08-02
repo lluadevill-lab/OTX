@@ -1122,4 +1122,12 @@
 	<monster name="Desert Mercenary" file="Diablo2/Desert_Mercenary.xml" />
 	<monster name="Iron Wolf" file="Diablo2/Iron_Wolf.xml" />
 	<monster name="Barbarian Merc" file="Diablo2/Barbarian_Merc.xml" />
+	<monster name="Lightning Sentry" file="Diablo2/Lightning_Sentry.xml" />
+	<monster name="Wake of Fire" file="Diablo2/Wake_of_Fire.xml" />
+	<monster name="Wake of Inferno" file="Diablo2/Wake_of_Inferno.xml" />
+	<monster name="Death Sentry" file="Diablo2/Death_Sentry.xml" />
+	<monster name="Blade Sentinel" file="Diablo2/Blade_Sentinel.xml" />
+	<monster name="Charged Bolt Sentry" file="Diablo2/Charged_Bolt_Sentry.xml" />
+	<monster name="Fire Blast" file="Diablo2/Fire_Blast.xml" />
+	<monster name="Shock Web" file="Diablo2/Shock_Web.xml" />
 </monsters>

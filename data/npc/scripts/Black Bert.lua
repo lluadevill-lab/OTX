@@ -24,7 +24,7 @@ local function getTable(player)
 		{name = "Carrying Device", id = 10615, buy = 1000},		-- Carrying Device
 		{name = "Cigar", id = 7499, buy = 2000},		-- Cigar
 		{name = "Cookbook", id = 2347, buy = 150},			-- Cookbook
-		{name = "Damaged Logbook", id = 14338, buy = 40000},		-- Damaged Logbook
+		{name = "Damaged Logbook", id = 14338, buy = 2260},		-- Damaged Logbook
 		{name = "Dark Essence", id = 14352, buy = 17000},		-- Dark Essence
 		{name = "Deep Crystal", id = 10158, buy = 13000},		-- Deep Crystal
 		{name = "Elemental Crystal", id = 10169, buy = 8000},		-- Elemental Crystal

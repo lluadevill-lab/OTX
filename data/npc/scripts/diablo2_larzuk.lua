@@ -20,7 +20,7 @@ local function doLarzukSocket(player)
   local sockets = D2C.larzukSocket({ilvl=player:getLevel(), baseType="armor"}, false, false)
   player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Larzuk furou seu "..target:getName().." com "..sockets.." furos! (max baseado no ilvl: <25=3, <40=4, resto max 4-6). Agora voce pode colocar runas em ordem exata para Runewords. Lembrando: so itens cinzas (normais com furos) aceitam Runewords. Azuis/amarelos/verdes/marrons viram gemmed falho se tentar.")
   -- Da um item com descricao de furos
-  local item = player:addItem(40042, 1) -- Grand Charm como exemplo de item furado? Melhor dar runa
+  local item = player:addItem(2145, 1) -- Grand Charm como exemplo de item furado? Melhor dar runa
   if item then item:setAttribute(ITEM_ATTRIBUTE_DESCRIPTION, "Item furado por Larzuk com "..sockets.." sockets por quest Ato5") end
   player:getPosition():sendMagicEffect(CONST_ME_HITAREA)
 end
@@ -42,6 +42,6 @@ keywordHandler:addKeyword({"furar"}, StdModule.say, {npcHandler=npcHandler, text
 -- Tambem adiciona shop que vende itens com furos exemplo
 local shopModule = ShopModule:new()
 npcHandler:addModule(shopModule)
-shopModule:addBuyableItem({'socketed armor'}, 40041, 10000, 1, 'large charm (exemplo socketed)')
+shopModule:addBuyableItem({'socketed armor'}, 2144, 10000, 1, 'large charm (exemplo socketed)')
 
 npcHandler:addModule(FocusModule:new())

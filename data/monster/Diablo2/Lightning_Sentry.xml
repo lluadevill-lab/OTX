@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lightning Sentry" nameDescription="a lightning sentry" race="blood" experience="0" speed="0" manacost="0">
+  <health now="300" max="300"/>
+  <look type="52" head="0" body="0" legs="0" feet="0" corpse="6000"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="0"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="5"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="energyfield" interval="2000" chance="100" range="5" min="-50" max="-150"/>
+  </attacks>
+  <defenses defense="10" armor="10"/>
+  <immunities>
+    <immunity name="paralyze" condition="1"/>
+    <immunity name="invisible" condition="1"/>
+  </immunities>
+  <loot></loot>
+</monster>

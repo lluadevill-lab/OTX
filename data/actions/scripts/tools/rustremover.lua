@@ -13,8 +13,8 @@ local config = {
 	},
 	
 	[9820] = { -- semi-rare rusty helmet
-		{{1, 40000}},
-		{{40001, 57500}, BRASS_HELMET},
+		{{1, 2260}},
+		{{2261, 57500}, BRASS_HELMET},
 		{{57501, 70000}, IRON_HELMET},
 		{{70001, 81000}, STEEL_HELMET},
 		{{81001, 94000}, CROWN_HELMET},
@@ -24,8 +24,8 @@ local config = {
 	
 	
 	[9809] = { -- semi-rare rusty armor
-		{{1, 40000}},
-		{{40001, 57500}, CHAIN_ARMOR},
+		{{1, 2260}},
+		{{2261, 57500}, CHAIN_ARMOR},
 		{{57501, 70000}, SCALE_ARMOR},
 		{{70001, 81000}, BRASS_ARMOR},
 		{{81001, 90000}, PLATE_ARMOR},
@@ -55,8 +55,8 @@ local config = {
 		{{99501, 100000}, KNIGHT_LEGS}
 	},
 	[9812] = { -- semi-rare rusty legs
-		{{1, 40000}},
-		{{40001, 60000}, STUDDED_LEGS},
+		{{1, 2260}},
+		{{2261, 60000}, STUDDED_LEGS},
 		{{60001, 75000}, CHAIN_LEGS},
 		{{75001, 87500}, BRASS_LEGS},
 		{{87501, 95500}, PLATE_LEGS},

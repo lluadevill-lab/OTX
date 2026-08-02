@@ -17,7 +17,7 @@ local function hireMerc(player, act, aura)
   player:removeMoney(cost)
   local merc = D2C.spawnMerc(player, act, 1, aura)
   -- Da um item que representa contrato merc? Ou summon?
-  player:addItem(40042, 1) -- Grand Charm como token merc temporario
+  player:addItem(2145, 1) -- Grand Charm como token merc temporario
   player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Mercenario contratado: Act"..act.." "..aura.." Lvl "..player:getLevel().."! Ele sobe com voce, usa arma/armor/helm (etereo sem gastar dura) e da aura ativa crucial. Use !d2merc para ver status. Aura Might + dano fisico e Holy Freeze lenta sao mais importantes.")
   player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
 end

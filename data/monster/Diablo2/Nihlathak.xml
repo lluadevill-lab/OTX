@@ -35,7 +35,7 @@
     <voice sentence="Diablo II Nihlathak!"/>
   </voices>
     <loot>
-    <item id="40072" countmax="1" chance="20000" />
-    <item id="40009" countmax="1" chance="15000" />
+    <item id="2088" countmax="1" chance="20000" />
+    <item id="2286" countmax="1" chance="15000" />
   </loot>
 </monster>

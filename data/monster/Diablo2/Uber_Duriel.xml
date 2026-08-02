@@ -35,7 +35,7 @@
     <voice sentence="Diablo II Uber Duriel!"/>
   </voices>
     <loot>
-    <item id="40074" countmax="1" chance="50000" />
-    <item id="40018" countmax="1" chance="8000" />
+    <item id="2161" countmax="1" chance="50000" />
+    <item id="2315" countmax="1" chance="8000" />
   </loot>
 </monster>

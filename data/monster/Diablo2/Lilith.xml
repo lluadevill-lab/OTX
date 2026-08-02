@@ -35,7 +35,7 @@
     <voice sentence="Diablo II Lilith!"/>
   </voices>
     <loot>
-    <item id="40073" countmax="1" chance="50000" />
-    <item id="40020" countmax="1" chance="8000" />
+    <item id="2160" countmax="1" chance="50000" />
+    <item id="2262" countmax="1" chance="8000" />
   </loot>
 </monster>

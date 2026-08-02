@@ -11,18 +11,18 @@ function onThink() npcHandler:onThink() end
 local shopModule = ShopModule:new()
 npcHandler:addModule(shopModule)
 -- Akara vende pocoes e itens iniciais Diablo II
-shopModule:addBuyableItem({'super healing potion'}, 40090, 500, 1, 'super healing potion')
-shopModule:addBuyableItem({'super mana potion'}, 40091, 500, 1, 'super mana potion')
+shopModule:addBuyableItem({'super healing potion'}, 7618, 500, 1, 'super healing potion')
+shopModule:addBuyableItem({'super mana potion'}, 7620, 500, 1, 'super mana potion')
 shopModule:addBuyableItem({'healing potion'}, 7618, 50, 1, 'health potion') -- tibia normal
 shopModule:addBuyableItem({'mana potion'}, 7620, 50, 1, 'mana potion')
-shopModule:addBuyableItem({'small charm'}, 40040, 10000, 1, 'small charm')
-shopModule:addBuyableItem({'grand charm'}, 40042, 50000, 1, 'grand charm')
-shopModule:addBuyableItem({'horadric cube'}, 40080, 1000, 1, 'horadric cube')
-shopModule:addBuyableItem({'wirts leg'}, 40081, 1000, 1, 'wirts leg')
-shopModule:addBuyableItem({'token'}, 40082, 5000, 1, 'token of absolution')
+shopModule:addBuyableItem({'small charm'}, 2143, 10000, 1, 'small charm')
+shopModule:addBuyableItem({'grand charm'}, 2145, 50000, 1, 'grand charm')
+shopModule:addBuyableItem({'horadric cube'}, 1988, 1000, 1, 'horadric cube')
+shopModule:addBuyableItem({'wirts leg'}, 2382, 1000, 1, 'wirts leg')
+shopModule:addBuyableItem({'token'}, 2165, 5000, 1, 'token of absolution')
 
-shopModule:addSellableItem({'small charm'}, 40040, 5000, 'small charm')
-shopModule:addSellableItem({'super healing potion'}, 40090, 250, 'super healing potion')
+shopModule:addSellableItem({'small charm'}, 2143, 5000, 'small charm')
+shopModule:addSellableItem({'super healing potion'}, 7618, 250, 'super healing potion')
 
 local function healPlayer(player)
   player:addHealth(player:getMaxHealth())
@@ -38,7 +38,7 @@ end
 keywordHandler:addKeyword({"heal"}, StdModule.say, {npcHandler=npcHandler, text="Curando voce..."}, function(player) healPlayer(player) end)
 keywordHandler:addKeyword({"cure"}, StdModule.say, {npcHandler=npcHandler, text="Curando..."}, function(player) healPlayer(player) end)
 
-keywordHandler:addKeyword({"craft"}, StdModule.say, {npcHandler=npcHandler, text="Sou especialista em craft! Vendo Horadric Cube 1k. Receitas: 3 runas + gema -> proxima runa, Tal+Thul+PTopaz+armor -> socket, Ral+Thul+PAmy+weapon Normal -> Exceptional, Wirt's Leg + Tome Town Portal (use 40081 + 0) -> Cow Level, 3 Keys -> Uber portal, 4 essencias -> Token respec. Diga {cube} para comprar cubo."},
+keywordHandler:addKeyword({"craft"}, StdModule.say, {npcHandler=npcHandler, text="Sou especialista em craft! Vendo Horadric Cube 1k. Receitas: 3 runas + gema -> proxima runa, Tal+Thul+PTopaz+armor -> socket, Ral+Thul+PAmy+weapon Normal -> Exceptional, Wirt's Leg + Tome Town Portal (use 2382 + 0) -> Cow Level, 3 Keys -> Uber portal, 4 essencias -> Token respec. Diga {cube} para comprar cubo."},
 function(player)
   local window = ModalWindow(2002, "Akara - Craft & Loja", "Bem vindo! Eu curo e vendo pocoes Diablo II e Horadric Cube.\n\nSeu ouro: "..player:getMoney().."\nOpcoes:\n1 - Curar (gratis)\n2 - Comprar Horadric Cube (1k)\n3 - Comprar Super Healing/Mana Potion (500)\n4 - Ver receitas Cubo\n5 - Mercenarios (Diga merc)")
   window:addButton(1, "Curar")
@@ -58,7 +58,7 @@ keywordHandler:addKeyword({"cube"}, StdModule.say, {npcHandler=npcHandler, text=
 function(player)
   if player:getMoney()>=1000 then
     player:removeMoney(1000)
-    player:addItem(40080,1)
+    player:addItem(1988,1)
     player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE,"Voce comprou Horadric Cube! Use-o como container 3x4, coloque itens dentro e use !d2cube ou clique no cubo.")
   else
     player:sendTextMessage(MESSAGE_STATUS_SMALL,"Ouro insuficiente")

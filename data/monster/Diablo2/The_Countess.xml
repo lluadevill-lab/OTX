@@ -35,9 +35,9 @@
     <voice sentence="Diablo II The Countess!"/>
   </voices>
     <loot>
-    <item id="40070" countmax="1" chance="20000" />
-    <item id="40006" countmax="1" chance="15000" />
-    <item id="40007" countmax="1" chance="12000" />
-    <item id="40000" countmax="1" chance="20000" />
+    <item id="2086" countmax="1" chance="20000" />
+    <item id="2274" countmax="1" chance="15000" />
+    <item id="2277" countmax="1" chance="12000" />
+    <item id="2260" countmax="1" chance="20000" />
   </loot>
 </monster>

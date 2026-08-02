@@ -207,7 +207,7 @@ local function changeVocation(player, fromVocation, toVocation)
 		player:addHealth(player:getMaxHealth())
 		player:setMaxMana(0 + (player:getVocation():getManaGain() * player:getLevel()))
 		player:addMana(player:getMaxMana())
-		player:setCapacity(40000 + (player:getVocation():getCapacityGain() * player:getLevel()))
+		player:setCapacity(2260 + (player:getVocation():getCapacityGain() * player:getLevel()))
 		
 		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, string.format('Congratulations! Now you are %s.', player:getVocation():getName()))
 		

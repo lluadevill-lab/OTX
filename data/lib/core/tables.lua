@@ -9,7 +9,6 @@ table.find = function (table, value)
 			return i
 		end
 	end
-
 	return nil
 end
 
@@ -35,7 +34,6 @@ table.count = function (table, item)
 			count = count + 1
 		end
 	end
-
 	return count
 end
 table.countElements = table.count
@@ -45,30 +43,25 @@ table.getCombinations = function (table, num)
 	for i = 1, select do
 		a[#a + 1] = i
 	end
-
 	local newthing = {}
 	while(true) do
 		local newrow = {}
 		for i = 1, select do
 			newrow[#newrow + 1] = table[a[i]]
 		end
-
 		newlist[#newlist + 1] = newrow
 		i = select
 		while(a[i] == (number - select + i)) do
 			i = i - 1
 		end
-
 		if(i < 1) then
 			break
 		end
-
 		a[i] = a[i] + 1
 		for j = i, select do
 			a[j] = a[i] + j - i
 		end
 	end
-
 	return newlist
 end
 

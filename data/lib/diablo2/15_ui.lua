@@ -138,7 +138,7 @@ end
 
 function D2C.openInventoryCharms(player)
   local totalmods, count = D2C.scanCharms(player)
-  local text = string.format("Charms: %d equipados | Mods: %s\nDilema: mochila cheia = forte mas sem espaco loot\n\nGheed's: %d Torch:%d Anni:%d\nSmall Charm 40040 1x1 +5 res 7%% MF\nLarge 40041 1x2 +35 life\nGrand 40042 1x3 +1 skills\nGheed 40043 80-160%% GF 20-40%% MF\nAnni 40044 +1 all\nTorch 40045 +3 class\n\nUse item 40040 no inventario para equipar charm (da MF)\n", count, table.concat(totalmods,", "), D2C.getAttr(player,"GHEEDS"), D2C.getAttr(player,"TORCH"), D2C.getAttr(player,"ANNIHILUS"))
+  local text = string.format("Charms: %d equipados | Mods: %s\nDilema: mochila cheia = forte mas sem espaco loot\n\nGheed's: %d Torch:%d Anni:%d\nSmall Charm 2143 1x1 +5 res 7%% MF\nLarge 2144 1x2 +35 life\nGrand 2145 1x3 +1 skills\nGheed 2146 80-160%% GF 20-40%% MF\nAnni 2147 +1 all\nTorch 2149 +3 class\n\nUse item 2143 no inventario para equipar charm (da MF)\n", count, table.concat(totalmods,", "), D2C.getAttr(player,"GHEEDS"), D2C.getAttr(player,"TORCH"), D2C.getAttr(player,"ANNIHILUS"))
   local window = ModalWindow {
     title = "Inventario + Charms",
     message = text
@@ -160,17 +160,17 @@ function D2C.openStash(player)
 end
 
 function D2C.openCubeUI(player)
-  local text = "Cubo Horadrico (item 40080 container 3x4):\n\nCOMO USAR IGUAL DIABLO 2:\n1 - Compre o cubo com Akara (1000 gold) - item container\n2 - Abra o cubo (clique duplo) - abre como mochila 12 slots\n3 - Arraste itens PARA DENTRO do cubo (ex: 3x Thul)\n4 - Feche e USE o cubo (clique > Use) - ele transmuta!\n\nReceitas principais:\n- 3x Chipped Amethyst (40050) = Flawed Amethyst (40051)\n- 3x Thul (40009) + Chipped Topaz (40055) = Amn (40010)\n- 3x Amn (40010) + Chipped Amethyst (40050) = Sol (40011)\n- Tal (40006) + Thul (40009) + Perfect Topaz (40056) + armor Normal = socketed\n- Ral (40007) + Thul (40009) + Perfect Sapphire (40058) + helm = socketed\n- Ort (40008) + Weapon = repara\n- Wirt's Leg (40081) + Tome TP = Portal Cow Level lvl 90\n- Key Terror (40070) + Hate (40071) + Destruction (40072) = Portal Uber\n- 4 essencias = Token Absolution respec\n\nNao precisa mais digitar !d2cube texto, agora e container de verdade!"
+  local text = "Cubo Horadrico (item 1988 container 3x4):\n\nCOMO USAR IGUAL DIABLO 2:\n1 - Compre o cubo com Akara (1000 gold) - item container\n2 - Abra o cubo (clique duplo) - abre como mochila 12 slots\n3 - Arraste itens PARA DENTRO do cubo (ex: 3x Thul)\n4 - Feche e USE o cubo (clique > Use) - ele transmuta!\n\nReceitas principais:\n- 3x Chipped Amethyst (2143) = Flawed Amethyst (2144)\n- 3x Thul (2286) + Chipped Topaz (2149) = Amn (2288)\n- 3x Amn (2288) + Chipped Amethyst (2143) = Sol (2290)\n- Tal (2274) + Thul (2286) + Perfect Topaz (2150) + armor Normal = socketed\n- Ral (2277) + Thul (2286) + Perfect Sapphire (2150) + helm = socketed\n- Ort (2285) + Weapon = repara\n- Wirt's Leg (2382) + Tome TP = Portal Cow Level lvl 90\n- Key Terror (2086) + Hate (2087) + Destruction (2088) = Portal Uber\n- 4 essencias = Token Absolution respec\n\nNao precisa mais digitar !d2cube texto, agora e container de verdade!"
   D2C.safeModal(player, 2005, "Cubo Horadrico - Container", text, nil, {{text="Fechar"}})
 end
 
 function D2C.openGamblingUI(player, npcName)
-  local text = "Gambling com "..(npcName or "Gheed")..":\nGaste ouro, qualidade escala com nivel char.\nilvl = clvl -5 a +4, chance Unique 2% lvl80+\n\nCusto: Ring 80k (item 40040 etc), Amu 120k\n\nAgora gambling da ITEM REAL no inventario com descricao ilvl/qualidade!\n\nSeu ouro: "..player:getMoney().." MF: "..D2C.getAttr(player,"MF").."%\n\nUse o NPC Gheed: abre modal clicavel com botoes Ring 80k e Amulet 120k que ja entregam item."
+  local text = "Gambling com "..(npcName or "Gheed")..":\nGaste ouro, qualidade escala com nivel char.\nilvl = clvl -5 a +4, chance Unique 2% lvl80+\n\nCusto: Ring 80k (item 2143 etc), Amu 120k\n\nAgora gambling da ITEM REAL no inventario com descricao ilvl/qualidade!\n\nSeu ouro: "..player:getMoney().." MF: "..D2C.getAttr(player,"MF").."%\n\nUse o NPC Gheed: abre modal clicavel com botoes Ring 80k e Amulet 120k que ja entregam item."
   D2C.safeModal(player, 2001, "Gambling - Gheed", text, nil, {{text="Fechar"}})
 end
 
 function D2C.openRunewordsUI(player)
-  local text="Runewords (52+ no servidor): ordem EXATA runas + tipo restrito + SO item cinza com furos.\n\nExemplos:\nSpirit Tal(40006)+Thul(40009)+Ort(40008)+Amn(40010) em sword/shield 4 furos Lvl25 +2 skills 25-35%% FCR\nInsight Ral(40007)+Tir(40002)+Tal(40006)+Sol(40011) polearm/staff 4 furos Lvl27 Meditation Aura\nStealth Tal+Eth(40004) armor 2 furos 25% FCR FRW FHR\nLore Ort+Sol helm 2 furos +1 skills\nEnigma Jah(40030)+Ith(40005)+Ber(40029) armor 3 furos Teleport\nInfinity Ber+Mal+Ber+Ist polearm 4 furos Conviction 12 -55%% Light\nGrief Eth+Tir+Lo+Mal+Ral sword/axe 5 furos +400 dano\n\nSe ordem errada ou tipo errado ou item azul/amarelo/verde/marrom: vira gemmed falho (item com runas mas sem bonus).\n\nUse item 25100+ runa no item cinza com furos via action."
+  local text="Runewords (52+ no servidor): ordem EXATA runas + tipo restrito + SO item cinza com furos.\n\nExemplos:\nSpirit Tal(2274)+Thul(2286)+Ort(2285)+Amn(2288) em sword/shield 4 furos Lvl25 +2 skills 25-35%% FCR\nInsight Ral(2277)+Tir(2265)+Tal(2274)+Sol(2290) polearm/staff 4 furos Lvl27 Meditation Aura\nStealth Tal+Eth(2268) armor 2 furos 25% FCR FRW FHR\nLore Ort+Sol helm 2 furos +1 skills\nEnigma Jah(13884)+Ith(2271)+Ber(8919) armor 3 furos Teleport\nInfinity Ber+Mal+Ber+Ist polearm 4 furos Conviction 12 -55%% Light\nGrief Eth+Tir+Lo+Mal+Ral sword/axe 5 furos +400 dano\n\nSe ordem errada ou tipo errado ou item azul/amarelo/verde/marrom: vira gemmed falho (item com runas mas sem bonus).\n\nUse item 25100+ runa no item cinza com furos via action."
   D2C.safeModal(player, 2006, "Runewords", text, nil, {{text="Fechar"}})
 end
 
@@ -194,7 +194,7 @@ Comandos rapidos:
 !d2 attr SKILL_POINTS 30
 !players 8
 !swap / !w
-!d2cube (antigo, mas agora use container 40080)
+!d2cube (antigo, mas agora use container 1988)
 !d2gamble ring
 !d2merc 2
 !d2uber soj

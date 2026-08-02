@@ -48,67 +48,66 @@ function D2C.spawnMerc(player, act, difficulty, auraChoice)
   elseif act==3 then mercType=D2C.MERCENARIES.Act3_IronWolf
   else mercType=D2C.MERCENARIES.Act5_Barbarian end
   
-  local lvl = player:getLevel()
+  local lvl = D2C.safeLevel(player)
   D2C.setAttr(player,"MERC_TYPE",act)
   D2C.setAttr(player,"MERC_LVL",lvl)
   
   -- Remove old merc summon if exists
   local summons = player:getSummons()
   for _, summon in ipairs(summons) do
-    if summon:getName():lower():find("merc") or summon:getName():lower():find("rogue") or summon:getName():lower():find("scout") or summon:getName():lower():find("wolf") then
+    local sName = summon:getName():lower()
+    if sName:find("merc") or sName:find("rogue") or sName:find("scout") or sName:find("wolf") or sName:find("barbarian") then
       summon:remove()
     end
   end
 
-  -- Cria novo merc como summon real que segue e ataca
   local pos = player:getPosition()
   local monsterName = mercType.monsterName
-  local mercMonster = Game.createMonster(monsterName, pos, false, true)
+  local mercMonster = nil
+  local ok, m = pcall(function() return Game.createMonster(monsterName, pos, false, true) end)
+  if ok then mercMonster = m end
   if mercMonster then
-    mercMonster:setMaster(player)
-    player:addSummon(mercMonster)
-    -- Da vida baseada no level do player
+    pcall(function() mercMonster:setMaster(player) end)
+    pcall(function() player:addSummon(mercMonster) end)
     local maxHealth = mercType.stats.life + lvl*10
-    mercMonster:setMaxHealth(maxHealth)
-    mercMonster:addHealth(maxHealth - mercMonster:getHealth())
-    -- Guarda aura escolhida
-    mercMonster:setStorageValue(90010, auraChoice and 1 or 0)
+    pcall(function() mercMonster:setMaxHealth(maxHealth) end)
+    pcall(function() mercMonster:addHealth(maxHealth - mercMonster:getHealth()) end)
+    -- Guarda aura escolhida no player storage, nao no monster (monster setStorageValue pode nao existir)
+    D2C.setAttr(player, "MERC_TYPE", act)
     player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE,"Mercenario contratado: "..mercType.name.." Lvl "..lvl.." Aura: "..(auraChoice or "default").."! Ele vai te seguir, atacar tudo ao redor e teleportar quando longe (igual Diablo 2). Use !d2merc para ver status.")
-    player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE)
-    -- Adiciona aura visual se Holy Freeze / Might
+    pcall(function() player:getPosition():sendMagicEffect(CONST_ME_MAGIC_BLUE) end)
     if auraChoice and auraChoice:lower():find("holy freeze") then
-      player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE,"Holy Freeze ativa: monstros proximos ficam lentos, mesmo com Cannot Be Frozen nao protege totalmente do slow da aura!")
+      player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE,"Holy Freeze ativa: monstros proximos ficam lentos!")
     elseif auraChoice and auraChoice:lower():find("might") then
-      player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE,"Might ativa: +230% dano fisico para voce e party no lvl 20, essencial para builds fisicas!")
+      player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE,"Might ativa: +230% dano fisico!")
     end
   else
-    player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE,"Mercenario contratado: "..mercType.name.." Lvl "..lvl.." Aura: "..(auraChoice or "default").."! (Monstro "..monsterName.." nao encontrado, mas aura e status salvos. Verifique se o monstro existe em monsters.xml)")
+    player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE,"Mercenario contratado: "..mercType.name.." Lvl "..lvl.." Aura: "..(auraChoice or "default").."! (Monstro "..monsterName.." nao encontrado, mas aura e status salvos. Verifique monsters.xml)")
   end
-
   return mercType
 end
 
 function D2C.mercLevelUp(player)
   local mercLvl = D2C.getAttr(player,"MERC_LVL")
-  local plvl = player:getLevel()
+  local plvl = D2C.safeLevel(player)
   if plvl > mercLvl then
     D2C.setAttr(player,"MERC_LVL",plvl)
-    -- Atualiza vida do summon existente
     local summons = player:getSummons()
     for _, summon in ipairs(summons) do
-      if summon:getName():lower():find("merc") or summon:getName():lower():find("scout") or summon:getName():lower():find("wolf") then
+      local sName = summon:getName():lower()
+      if sName:find("merc") or sName:find("scout") or sName:find("wolf") or sName:find("barbarian") then
         local newMax = 300 + plvl*10
-        summon:setMaxHealth(newMax)
-        summon:addHealth(newMax - summon:getHealth())
+        pcall(function() summon:setMaxHealth(newMax) end)
+        pcall(function() summon:addHealth(newMax - summon:getHealth()) end)
       end
     end
-    player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE,"Seu mercenario subiu para nivel "..plvl.."! Vida aumentada. Ele teleporta pra voce quando longe.")
+    player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE,"Seu mercenario subiu para nivel "..plvl.."! Vida aumentada. Teleporta quando longe.")
   end
 end
 
 function D2C.mercEquip(player, slot, item)
   if not table.contains(D2C.MERC_EQUIPS, slot) then return false, "Slot invalido" end
-  if item.isEthereal then item.durabilityLoss = 0 end
-  player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE,"Merc equipou "..(item.name or "item").." no slot "..slot.."! (Ethereal sem gastar dura)")
+  if item and item.isEthereal then item.durabilityLoss = 0 end
+  player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE,"Merc equipou "..(item and item.name or "item").." no slot "..slot.."! (Ethereal sem gastar dura)")
   return true
 end

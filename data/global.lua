@@ -1,9 +1,9 @@
 dofile('data/lib/libs.lua')
--- Diablo II rules layer
+-- Diablo II rules layer (attributes, breakpoints, resistances, leech, MF and runewords).
 -- Keep this after libs.lua so it can use the server compatibility helpers.
 dofile('data/lib/diablo2.lua')
 dofile('data/lib/diablo2_rules.lua')
--- Diablo II Complete - TODAS mecânicas
+-- Diablo II Complete - TODAS mecanicas
 if io.open('data/lib/diablo2_complete.lua','r') then dofile('data/lib/diablo2_complete.lua') end
 
 NOT_MOVEABLE_ACTION = 8000
@@ -12,12 +12,6 @@ ADVANCED_SECURE_MODE = 1 -- Set to 0 to disable.
 
 STORAGEVALUE_PROMOTION = 30018
 
-
--- Stamina - unconditional init for OTX 3.10 compatibility (fix Druid Sample login nil)
-nextUseStaminaTime = nextUseStaminaTime or {}
-nextUseStaminaPrey = nextUseStaminaPrey or {}
-nextUseXpStamina = nextUseXpStamina or {}
-lastItemImbuing = lastItemImbuing or {}
 
 ropeSpots = {384, 418, 8278, 8592, 13189, 14435, 14436, 15635, 19518, 26019, 24621, 24622, 24623, 24624}
 
@@ -169,9 +163,6 @@ table.contains = function(a, b)
 end
 table.isStrIn = table.contains
 
-
-
-
 string.split = function(str, sep)
 	local res = {}
 	for v in str:gmatch("([^" .. sep .. "]+)") do
@@ -184,22 +175,17 @@ string.trim = function(str)
 	return str:match'^()%s*$' and '' or str:match'^%s*(.*%S)'
 end
 
--- Stamina
-if nextUseStaminaTime == nil then
-    nextUseStaminaTime = {}
-end
+-- Stamina - unconditional init for OTX 3.10 compatibility (fix Druid Sample login nil)
+nextUseStaminaTime = nextUseStaminaTime or {}
+nextUseStaminaPrey = nextUseStaminaPrey or {}
+nextUseXpStamina = nextUseXpStamina or {}
+lastItemImbuing = lastItemImbuing or {}
 
-if nextUseStaminaPrey == nil then
-    nextUseStaminaPrey = {}
-end
-
-if nextUseXpStamina == nil then
-    nextUseXpStamina = {}
-end
-
-if lastItemImbuing == nil then
-    lastItemImbuing = {}
-end
+-- Keep old conditional for backwards compat
+if nextUseStaminaTime == nil then nextUseStaminaTime = {} end
+if nextUseStaminaPrey == nil then nextUseStaminaPrey = {} end
+if nextUseXpStamina == nil then nextUseXpStamina = {} end
+if lastItemImbuing == nil then lastItemImbuing = {} end
 
 --Boss entry
 if not bosssPlayers then

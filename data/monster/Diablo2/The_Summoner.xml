@@ -35,7 +35,7 @@
     <voice sentence="Diablo II The Summoner!"/>
   </voices>
     <loot>
-    <item id="40071" countmax="1" chance="20000" />
-    <item id="40008" countmax="1" chance="15000" />
+    <item id="2087" countmax="1" chance="20000" />
+    <item id="2285" countmax="1" chance="15000" />
   </loot>
 </monster>

@@ -202,7 +202,7 @@ end
 -- Charges
 D2C.CHARGES = {
   {skill="Teleport", class="Sorceress", maxCharges=20, costRecharge=50000},
-  {skill="Battle Orders", class="Barbarian", maxCharges=25, costRecharge=40000},
+  {skill="Battle Orders", class="Barbarian", maxCharges=25, costRecharge=2260},
   {skill="Enchant", class="Sorceress", maxCharges=30, costRecharge=30000},
   {skill="Lower Resist", class="Necromancer", maxCharges=15, costRecharge=60000},
 }

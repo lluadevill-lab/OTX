@@ -69,7 +69,7 @@ function onCastSpell(creature, variant)
     if target then
       local dur = 3
       if D2C and D2C.freezeDuration then dur = D2C.freezeDuration(3, target, false) end
-      target:setStorageValue(92000, os.time()+dur)
+      pcall(function() if target.setStorageValue then pcall(function() if target.setStorageValue then target:setStorageValue(92000, os.time() end end)+dur)
     end
   end
   if D2C and D2C.triggerCtC then D2C.triggerCtC(player, "onStriking", {}) end

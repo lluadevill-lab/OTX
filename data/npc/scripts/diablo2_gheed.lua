@@ -11,13 +11,13 @@ function onThink() npcHandler:onThink() end
 -- Shop: vende itens basicos e compra com cap 35k (vendorCap)
 local shopModule = ShopModule:new()
 npcHandler:addModule(shopModule)
-shopModule:addSellableItem({'small charm'}, 40040, 5000, 'small charm')
-shopModule:addSellableItem({'large charm'}, 40041, 10000, 'large charm')
-shopModule:addBuyableItem({'small charm'}, 40040, 10000, 1, 'small charm')
-shopModule:addBuyableItem({'large charm'}, 40041, 20000, 1, 'large charm')
-shopModule:addBuyableItem({'grand charm'}, 40042, 50000, 1, 'grand charm')
-shopModule:addBuyableItem({'healing potion'}, 40090, 500, 1, 'super healing potion')
-shopModule:addBuyableItem({'mana potion'}, 40091, 500, 1, 'super mana potion')
+shopModule:addSellableItem({'small charm'}, 2143, 5000, 'small charm')
+shopModule:addSellableItem({'large charm'}, 2144, 10000, 'large charm')
+shopModule:addBuyableItem({'small charm'}, 2143, 10000, 1, 'small charm')
+shopModule:addBuyableItem({'large charm'}, 2144, 20000, 1, 'large charm')
+shopModule:addBuyableItem({'grand charm'}, 2145, 50000, 1, 'grand charm')
+shopModule:addBuyableItem({'healing potion'}, 7618, 500, 1, 'super healing potion')
+shopModule:addBuyableItem({'mana potion'}, 7620, 500, 1, 'super mana potion')
 
 -- Gambling com modal clicavel
 local function gambleRing(player)
@@ -29,7 +29,7 @@ local function gambleRing(player)
   player:removeMoney(cost)
   local item = D2C.gambleItem(player)
   -- Cria item real
-  local possible = {40040,40041,40042,40050,40055,40000,40006} -- charms, gems, runes
+  local possible = {2143,2144,2145,2143,2149,2260,2274} -- charms, gems, runes
   local chosen = possible[math.random(#possible)]
   local added = player:addItem(chosen, 1)
   if added then
@@ -46,7 +46,7 @@ local function gambleAmulet(player)
   end
   player:removeMoney(cost)
   local item = D2C.gambleItem(player)
-  local possible = {40042,40043,40044,40046,40047,40048,40001,40007} -- grand, gheed, anni, facets, runes
+  local possible = {2145,2146,2147,2150,9970,2151,2261,2277} -- grand, gheed, anni, facets, runes
   local chosen = possible[math.random(#possible)]
   local added = player:addItem(chosen, 1)
   if added then
@@ -55,8 +55,8 @@ local function gambleAmulet(player)
   player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, string.format("Gheed: Amulet gamble %d ouro => item %s ilvl %d %s! (SoJ chance se lvl 80+)", cost, chosen, item.ilvl, item.quality))
   -- Chance SoJ
   if math.random(1000) < 5 then
-    player:addItem(40023, 1) -- Ist? Actually SoJ unique ring id 40040? Vamos dar Gheed's
-    player:addItem(40043, 1)
+    player:addItem(2292, 1) -- Ist? Actually SoJ unique ring id 2143? Vamos dar Gheed's
+    player:addItem(2146, 1)
     player:sendTextMessage(MESSAGE_STATUS_CONSOLE_RED, "WOW! Gheed te deu Gheed's Fortune! MF +!")
   end
 end
@@ -81,10 +81,10 @@ end)
 keywordHandler:addKeyword({"ring"}, StdModule.say, {npcHandler=npcHandler, text="Apostando ring 80k..."}, function(player) gambleRing(player) end)
 keywordHandler:addKeyword({"amulet"}, StdModule.say, {npcHandler=npcHandler, text="Apostando amulet 120k..."}, function(player) gambleAmulet(player) end)
 keywordHandler:addKeyword({"armor"}, StdModule.say, {npcHandler=npcHandler, text="Armor gamble 50k..."}, function(player) 
-  if player:getMoney()>=50000 then player:removeMoney(50000) player:addItem(40041,1) player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE,"Gamble armor ganhou Large Charm") else player:sendTextMessage(MESSAGE_STATUS_SMALL,"Sem ouro") end
+  if player:getMoney()>=50000 then player:removeMoney(50000) player:addItem(2144,1) player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE,"Gamble armor ganhou Large Charm") else player:sendTextMessage(MESSAGE_STATUS_SMALL,"Sem ouro") end
 end)
 keywordHandler:addKeyword({"weapon"}, StdModule.say, {npcHandler=npcHandler, text="Weapon gamble 60k..."}, function(player) 
-  if player:getMoney()>=60000 then player:removeMoney(60000) player:addItem(40006,1) player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE,"Gamble weapon ganhou Tal Rune") else player:sendTextMessage(MESSAGE_STATUS_SMALL,"Sem ouro") end
+  if player:getMoney()>=60000 then player:removeMoney(60000) player:addItem(2274,1) player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE,"Gamble weapon ganhou Tal Rune") else player:sendTextMessage(MESSAGE_STATUS_SMALL,"Sem ouro") end
 end)
 
 keywordHandler:addKeyword({"shop"}, StdModule.say, {npcHandler=npcHandler, text="Olha meu shop, vendo charms e pocoes Diablo II. Tambem compro ate cap 35k (vendor cap Hell)."})

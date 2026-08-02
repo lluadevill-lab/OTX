@@ -1,5 +1,6 @@
--- Master loader for Diablo II Complete - call from global.lua
-if D2C and D2C.LOADED then return end
+-- Master loader for Diablo II Complete - always reloads to fix mainMenu nil after /reload
+D2C = nil
+D2C = D2C or {}
 dofile('data/lib/diablo2/init.lua')
 
 D2 = D2 or {}
@@ -30,7 +31,6 @@ function onD2Hit(attacker, defender, damage, params)
   local okBlock, b = pcall(function() return D2C.blockChance(defender, params.shieldBlock or 20, params.running) end)
   if okBlock then block = b end
   if math.random(100) <= block then return 0, "blocked" end
-  local cbDmg = 0
   if params.cb and math.random(100) <= params.cb then
     local okCB, dmgCB = pcall(function() return D2C.crushingBlow(defender, params.isBoss, defender.isPlayer and defender:isPlayer() or false) end)
     if okCB then damage = damage + dmgCB end
@@ -65,4 +65,4 @@ function onD2Death(monster, killer)
   return not shattered
 end
 
-print(">> Diablo II Complete Master Loaded - safeLevel + pcall")
+print(">> Diablo II Complete Master Loaded - safeLevel + pcall - mainMenu fixed")

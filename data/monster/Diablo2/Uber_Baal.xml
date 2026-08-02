@@ -35,7 +35,7 @@
     <voice sentence="Diablo II Uber Baal!"/>
   </voices>
     <loot>
-    <item id="40045" countmax="1" chance="100000" />
-    <item id="40031" countmax="1" chance="15000" />
+    <item id="2149" countmax="1" chance="100000" />
+    <item id="2303" countmax="1" chance="15000" />
   </loot>
 </monster>
