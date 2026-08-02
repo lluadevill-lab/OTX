@@ -111,3 +111,21 @@ function D2C.mercEquip(player, slot, item)
   player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE,"Merc equipou "..(item and item.name or "item").." no slot "..slot.."! (Ethereal sem gastar dura)")
   return true
 end
+
+
+function D2C.applyMercAura(player)
+  local act = D2C.getAttr(player, "MERC_TYPE")
+  if act==0 then return end
+  -- Check if merc summon exists near player
+  local summons = player:getSummons()
+  local hasMerc = false
+  for _, s in ipairs(summons) do
+    local n = s:getName():lower()
+    if n:find("merc") or n:find("rogue") or n:find("scout") or n:find("wolf") or n:find("barbarian") then hasMerc=true break end
+  end
+  if not hasMerc then return end
+  -- Aura Might: +40% phys damage example via storage
+  -- For simplicity, give player extra attack via condition? We'll just send message and give extra damage via storage bonus
+  -- This is called from stamina_tick or login think
+end
+
