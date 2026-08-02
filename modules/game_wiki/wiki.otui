@@ -1,0 +1,141 @@
+WikiButton < Button
+  size: 180 34
+  margin: 3
+  font: verdana-11px-rounded
+  text-align: center
+  text-wrap: true
+
+MainWindow
+  id: wikiWindow
+  !text: tr('Wiki')
+  size: 680 520
+  @onEscape: modules.game_wiki.backOrClose()
+  $mobile:
+    size: 350 400
+
+  Panel
+    id: listPanel
+    anchors.fill: parent
+
+    Label
+      id: titleLabel
+      anchors.top: parent.top
+      anchors.left: parent.left
+      anchors.right: parent.right
+      height: 24
+      text-align: center
+      !text: tr('Escolha um tópico para ver mais informações')
+      font: verdana-11px-rounded
+      color: orange
+
+    ScrollablePanel
+      id: topicsScrollPanel
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      anchors.bottom: closeButton.top
+      margin-top: 5
+      margin-bottom: 10
+      vertical-scrollbar: topicsScrollBar
+      layout:
+        type: grid
+        cell-size: 194 40
+        cell-spacing: 8
+        flow: true
+        fit-children: true
+
+    VerticalScrollBar
+      id: topicsScrollBar
+      anchors.top: topicsScrollPanel.top
+      anchors.bottom: topicsScrollPanel.bottom
+      anchors.right: topicsScrollPanel.right
+      step: 32
+      pixels-scroll: true
+
+    Button
+      id: closeButton
+      !text: tr('Fechar')
+      anchors.bottom: parent.bottom
+      anchors.right: parent.right
+      width: 80
+      height: 26
+      @onClick: modules.game_wiki.hide()
+
+  Panel
+    id: detailPanel
+    anchors.fill: parent
+    visible: false
+
+    Label
+      id: detailTitle
+      anchors.top: parent.top
+      anchors.left: parent.left
+      anchors.right: parent.right
+      height: 26
+      text-align: center
+      font: verdana-11px-rounded
+      color: orange
+      !text: tr('Detalhes')
+
+    HorizontalSeparator
+      id: sep
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      margin-top: 2
+      margin-bottom: 4
+
+    ScrollablePanel
+      id: detailScrollPanel
+      anchors.top: sep.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      anchors.bottom: buttonsPanel.top
+      margin-top: 4
+      margin-bottom: 8
+      vertical-scrollbar: detailScrollBar
+      padding: 5
+      padding-right: 14
+
+      Label
+        id: detailText
+        anchors.top: parent.top
+        anchors.left: parent.left
+        anchors.right: parent.right
+        text-wrap: true
+        text-auto-resize: true
+        font: verdana-11px-rounded
+        color: #E0E0E0
+
+    VerticalScrollBar
+      id: detailScrollBar
+      anchors.top: detailScrollPanel.top
+      anchors.bottom: detailScrollPanel.bottom
+      anchors.right: detailScrollPanel.right
+      step: 24
+      pixels-scroll: true
+
+    Panel
+      id: buttonsPanel
+      anchors.bottom: parent.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      height: 30
+
+      Button
+        id: backButton
+        !text: tr('Voltar')
+        anchors.left: parent.left
+        anchors.bottom: parent.bottom
+        width: 90
+        height: 26
+        @onClick: modules.game_wiki.showList()
+
+      Button
+        id: closeDetailButton
+        !text: tr('Fechar')
+        anchors.right: parent.right
+        anchors.bottom: parent.bottom
+        width: 90
+        height: 26
+        @onClick: modules.game_wiki.hide()

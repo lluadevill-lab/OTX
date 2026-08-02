@@ -1,0 +1,9 @@
+Module
+  name: game_wiki
+  description: Wiki in-game with detailed information per topic
+  author: OTX
+  website: https://github.com/otland
+  sandboxed: true
+  scripts: [ wiki ]
+  @onLoad: init()
+  @onUnload: terminate()
