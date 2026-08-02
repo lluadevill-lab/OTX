@@ -58,7 +58,11 @@ function D2C.openSkillTree(player)
     local lvl = D2C.getSkillLevel(player,sname)
     local data = D2C.getSkill(sname)
     if data then
-      msg = msg..string.format("%s [T%d][%s] Lvl %d/20 %s\n", sname, data.tier, data.tree, lvl, D2C.SYNERGIES[sname] and "Sinergia" or "")
+      local tier = tonumber(data.tier) or 1
+      local tree = tostring(data.tree or "?")
+      local lv = tonumber(lvl) or 0
+      local syn = D2C.SYNERGIES[sname] and "Sinergia" or ""
+      msg = msg..string.format("%s [T%d][%s] Lvl %d/20 %s\n", tostring(sname), tier, tree, lv, syn)
     end
     if #msg>1200 then break end
   end
@@ -112,7 +116,8 @@ function D2C.openCharScreen(player)
   pcall(function() iasReached, iasFrames = D2C.getBreakpoint(player,"IAS") end)
   pcall(function() fbrReached, fbrFrames = D2C.getBreakpoint(player,"FBR") end)
   local diff = D2C.DIFF_NAMES[D2C.getAttr(player,"DIFF")] or "Normal"
-  local text = string.format([[Classe: %s | Level: %d | Dif: %s
+  local ok, text = pcall(function()
+    return string.format([[Classe: %s | Level: %d | Dif: %s
 STR %d | DEX %d | VIT %d | ENE %d
 Vida %d | Mana %d | Stamina %d/ %d
 Block %.1f%% (max 75) Running /3
@@ -122,7 +127,12 @@ Merc: Act %d Lvl %d
 WeaponSet: %d | CBF %d | PLR %d
 SoJ Sold: %d | Res Penalty: %d
 Pontos: Skill %d Attr %d
-]], class, D2C.safeLevel(player), diff, str,dex,vit,ene, life,mana,stamina,D2C.calcStamina(player), block, D2C.FPS, fcrReached, fcrFrames, fcrSec or 0, fhrReached, fhrFrames or 0, iasReached, iasFrames or 0, fbrReached, D2C.getAttr(player,"MF"), D2C.getAttr(player,"GF"), D2C.getAttr(player,"CB"), D2C.getAttr(player,"DS"), D2C.getAttr(player,"OW"), D2C.getAttr(player,"KB"), D2C.getAttr(player,"MERC_TYPE"), D2C.getAttr(player,"MERC_LVL"), D2C.getAttr(player,"WEAPON_SET"), D2C.getAttr(player,"CANNOT_BE_FROZEN"), D2C.getAttr(player,"PLR"), D2C.getAttr(player,"SOJ_SOLD"), D2C.RES_PENALTY[D2C.getAttr(player,"DIFF")] or 0, D2C.getAttr(player,"SKILL_POINTS"), D2C.getAttr(player,"ATTR_POINTS"))
+]], tostring(class), D2C.safeLevel(player), tostring(diff), tonumber(str) or 0, tonumber(dex) or 0, tonumber(vit) or 0, tonumber(ene) or 0, tonumber(life) or 0, tonumber(mana) or 0, tonumber(stamina) or 0, tonumber(D2C.calcStamina(player)) or 0, tonumber(block) or 0, tonumber(D2C.FPS) or 25, tonumber(fcrReached) or 0, tonumber(fcrFrames) or 0, tonumber(fcrSec) or 0, tonumber(fhrReached) or 0, tonumber(fhrFrames) or 0, tonumber(iasReached) or 0, tonumber(iasFrames) or 0, tonumber(fbrReached) or 0, tonumber(D2C.getAttr(player,"MF")) or 0, tonumber(D2C.getAttr(player,"GF")) or 0, tonumber(D2C.getAttr(player,"CB")) or 0, tonumber(D2C.getAttr(player,"DS")) or 0, tonumber(D2C.getAttr(player,"OW")) or 0, tonumber(D2C.getAttr(player,"KB")) or 0, tonumber(D2C.getAttr(player,"MERC_TYPE")) or 0, tonumber(D2C.getAttr(player,"MERC_LVL")) or 0, tonumber(D2C.getAttr(player,"WEAPON_SET")) or 0, tonumber(D2C.getAttr(player,"CANNOT_BE_FROZEN")) or 0, tonumber(D2C.getAttr(player,"PLR")) or 0, tonumber(D2C.getAttr(player,"SOJ_SOLD")) or 0, tonumber(D2C.RES_PENALTY[D2C.getAttr(player,"DIFF")] or 0), tonumber(D2C.getAttr(player,"SKILL_POINTS")) or 0, tonumber(D2C.getAttr(player,"ATTR_POINTS")) or 0)
+  end)
+  if not ok or not text then
+    text = "Classe: "..tostring(class).." Level: "..D2C.safeLevel(player).." | Pontos Skill: "..D2C.getAttr(player,"SKILL_POINTS")
+  end
+
 
   local window = ModalWindow {
     title = "Character Screen - "..class,
