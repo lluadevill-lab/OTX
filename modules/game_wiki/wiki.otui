@@ -9,16 +9,12 @@ WikiRow < Panel
   layout:
     type: horizontalBox
     spacing: 8
-  margin-top: 2
-  margin-bottom: 2
 
 MainWindow
   id: wikiWindow
   !text: tr('Wiki')
   size: 680 520
   @onEscape: modules.game_wiki.backOrClose()
-  $mobile:
-    size: 360 450
 
   Panel
     id: listPanel
@@ -31,7 +27,7 @@ MainWindow
       anchors.right: parent.right
       height: 24
       text-align: center
-      !text: tr('Escolha um tópico para ver mais informações')
+      !text: tr('Escolha um topico')
       font: verdana-11px-rounded
       color: orange
 
@@ -43,12 +39,11 @@ MainWindow
       anchors.bottom: closeButton.top
       margin-top: 8
       margin-bottom: 12
-      margin-right: 15
+      margin-right: 14
       vertical-scrollbar: topicsScrollBar
       layout:
         type: verticalBox
-        spacing: 2
-        fit-children: true
+        spacing: 4
 
     VerticalScrollBar
       id: topicsScrollBar
@@ -99,10 +94,9 @@ MainWindow
       anchors.bottom: buttonsPanel.top
       margin-top: 4
       margin-bottom: 8
-      margin-right: 15
+      margin-right: 14
       vertical-scrollbar: detailScrollBar
       padding: 6
-      padding-right: 12
 
       Label
         id: detailText
