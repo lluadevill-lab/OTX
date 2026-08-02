@@ -201,17 +201,49 @@ function populateTopics()
   if not topicsScrollPanel then return end
   topicsScrollPanel:destroyChildren()
 
-  for _, title in ipairs(topicOrder) do
-    local button = g_ui.createWidget('WikiButton', topicsScrollPanel)
-    if button then
-      button:setText(title)
-      local safeId = title:gsub("%s+", "_"):gsub("&", "and"):gsub("[^%w_]", "")
-      button:setId('wikiBtn_' .. safeId)
-      button:setTooltip(tr('Clique para ver informações sobre ') .. title)
-      button.onClick = function()
-        showTopic(title)
+  local columns = 3
+  if g_app.isMobile() then
+    columns = 1
+  end
+
+  local currentRow = nil
+  local countInRow = 0
+
+  for idx, title in ipairs(topicOrder) do
+    if not currentRow or countInRow >= columns then
+      currentRow = g_ui.createWidget('WikiRow', topicsScrollPanel)
+      -- garante que a linha ocupe largura total e não colapse
+      if currentRow then
+        currentRow:setId('wikiRow_' .. math.floor((idx-1)/columns + 1))
+      end
+      countInRow = 0
+    end
+
+    if currentRow then
+      local button = g_ui.createWidget('WikiButton', currentRow)
+      if button then
+        button:setText(title)
+        local safeId = title:gsub("%s+", "_"):gsub("&", "and"):gsub("[^%w_]", "")
+        button:setId('wikiBtn_' .. safeId)
+        button:setTooltip(tr('Clique para ver informações sobre ') .. title)
+        button.onClick = function()
+          showTopic(title)
+        end
+        countInRow = countInRow + 1
       end
     end
+  end
+
+  -- força atualização do scroll após criar tudo
+  if topicsScrollPanel.updateScrollBars then
+    scheduleEvent(function()
+      if topicsScrollPanel and topicsScrollPanel.updateScrollBars then
+        topicsScrollPanel:updateScrollBars()
+      end
+      if topicsScrollBar then
+        topicsScrollBar:setValue(0)
+      end
+    end, 50)
   end
 end
 

@@ -1,9 +1,17 @@
 WikiButton < Button
-  size: 180 34
-  margin: 3
+  size: 190 36
   font: verdana-11px-rounded
   text-align: center
   text-wrap: true
+
+WikiRow < Panel
+  height: 40
+  layout:
+    type: horizontalBox
+    spacing: 8
+    align-items: flex-start
+  margin-top: 2
+  margin-bottom: 2
 
 MainWindow
   id: wikiWindow
@@ -11,7 +19,7 @@ MainWindow
   size: 680 520
   @onEscape: modules.game_wiki.backOrClose()
   $mobile:
-    size: 350 400
+    size: 360 450
 
   Panel
     id: listPanel
@@ -28,37 +36,39 @@ MainWindow
       font: verdana-11px-rounded
       color: orange
 
-    ScrollablePanel
-      id: topicsScrollPanel
-      anchors.top: prev.bottom
-      anchors.left: parent.left
-      anchors.right: parent.right
-      anchors.bottom: closeButton.top
-      margin-top: 5
-      margin-bottom: 10
-      vertical-scrollbar: topicsScrollBar
-      layout:
-        type: grid
-        cell-size: 194 40
-        cell-spacing: 8
-        flow: true
-        fit-children: true
-
     VerticalScrollBar
       id: topicsScrollBar
       anchors.top: topicsScrollPanel.top
       anchors.bottom: topicsScrollPanel.bottom
-      anchors.right: topicsScrollPanel.right
-      step: 32
+      anchors.right: parent.right
+      margin-right: 2
+      step: 40
       pixels-scroll: true
+
+    ScrollablePanel
+      id: topicsScrollPanel
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      anchors.right: topicsScrollBar.left
+      anchors.bottom: closeButton.top
+      margin-top: 8
+      margin-bottom: 12
+      margin-right: 6
+      vertical-scrollbar: topicsScrollBar
+      layout:
+        type: verticalBox
+        spacing: 2
+        fit-children: true
+      padding-right: 4
 
     Button
       id: closeButton
       !text: tr('Fechar')
       anchors.bottom: parent.bottom
       anchors.right: parent.right
-      width: 80
-      height: 26
+      width: 85
+      height: 28
+      margin-top: 4
       @onClick: modules.game_wiki.hide()
 
   Panel
@@ -85,17 +95,27 @@ MainWindow
       margin-top: 2
       margin-bottom: 4
 
+    VerticalScrollBar
+      id: detailScrollBar
+      anchors.top: detailScrollPanel.top
+      anchors.bottom: detailScrollPanel.bottom
+      anchors.right: parent.right
+      margin-right: 2
+      step: 28
+      pixels-scroll: true
+
     ScrollablePanel
       id: detailScrollPanel
       anchors.top: sep.bottom
       anchors.left: parent.left
-      anchors.right: parent.right
+      anchors.right: detailScrollBar.left
       anchors.bottom: buttonsPanel.top
       margin-top: 4
       margin-bottom: 8
+      margin-right: 6
       vertical-scrollbar: detailScrollBar
-      padding: 5
-      padding-right: 14
+      padding: 6
+      padding-right: 12
 
       Label
         id: detailText
@@ -107,20 +127,12 @@ MainWindow
         font: verdana-11px-rounded
         color: #E0E0E0
 
-    VerticalScrollBar
-      id: detailScrollBar
-      anchors.top: detailScrollPanel.top
-      anchors.bottom: detailScrollPanel.bottom
-      anchors.right: detailScrollPanel.right
-      step: 24
-      pixels-scroll: true
-
     Panel
       id: buttonsPanel
       anchors.bottom: parent.bottom
       anchors.left: parent.left
       anchors.right: parent.right
-      height: 30
+      height: 34
 
       Button
         id: backButton
