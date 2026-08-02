@@ -1,0 +1,10 @@
+Module
+  name: game_diablo2_gambling
+  description: Diablo II Gambling
+  author: OTX Diablo II Port
+  website: https://github.com/lluadevill-lab/OTX
+  sandboxed: true
+  scripts: [ game_diablo2_gambling ]
+  dependencies: [ client_topmenu ]
+  @onLoad: init()
+  @onUnload: terminate()

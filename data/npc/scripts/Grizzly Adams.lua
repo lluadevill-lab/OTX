@@ -71,7 +71,7 @@ local grizzlyAdamsConfig = {
 		trophyHunter_rank = {
 			-- SELL OFFERS
 			{id=7396, buy=0, sell=20000, name='behemoth trophy'},
-			{id=7393, buy=0, sell=40000, name='demon trophy'},
+			{id=7393, buy=0, sell=2260, name='demon trophy'},
 			{id=7399, buy=0, sell=10000, name='dragon lord trophy'},
 			-- BUY OFFERS
 			{id=10518, buy=1000, sell=0, name='demon backpack'},

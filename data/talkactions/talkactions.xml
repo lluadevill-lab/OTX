@@ -52,8 +52,17 @@
 	<!--Tutors -->
 	<talkaction words="/mute" separator=" " script="mute.lua" />
 
-	<!-- Diablo II player interface -->
-	<talkaction words="!d2status" script="d2status.lua" />
+	<!-- Diablo II player interface - COMPLETE -->
+	<talkaction words="!d2status" script="diablo2/d2status.lua" />
+	<talkaction words="!d2" separator=" " script="diablo2/d2_full.lua" />
+	<talkaction words="!players" separator=" " script="diablo2/d2players.lua" />
+	<talkaction words="!swap" script="diablo2/d2swap.lua" />
+	<talkaction words="!w" script="diablo2/d2swap.lua" />
+	<talkaction words="!d2cube" separator=" " script="diablo2/d2cube.lua" />
+	<talkaction words="!d2gamble" separator=" " script="diablo2/d2gamble.lua" />
+	<talkaction words="!d2merc" separator=" " script="diablo2/d2merc.lua" />
+	<talkaction words="!d2uber" separator=" " script="diablo2/d2uber.lua" />
+	<talkaction words="/players" separator=" " script="diablo2/d2players.lua" />
 
 	<!-- player talkactions -->
 	<talkaction words="!buyhouse" script="buyhouse.lua" />

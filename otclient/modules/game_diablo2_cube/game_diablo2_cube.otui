@@ -1,0 +1,14 @@
+MainWindow
+  id: game_diablo2_cubeWindow
+  !text: tr('Horadric Cube Container')
+  size: 350 300
+  @onEscape: self:hide()
+  Label
+    id: infoLabel
+    text: Horadric Cube Container - opcode 153 - Clique nos botoes
+  Button
+    id: closeButton
+    !text: tr('Fechar')
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    @onClick: self:getParent():hide()

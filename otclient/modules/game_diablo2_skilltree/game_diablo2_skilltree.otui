@@ -1,0 +1,14 @@
+MainWindow
+  id: game_diablo2_skilltreeWindow
+  !text: tr('Skill Tree - UPAR com clique')
+  size: 350 300
+  @onEscape: self:hide()
+  Label
+    id: infoLabel
+    text: Skill Tree - UPAR com clique - opcode 150 - Clique nos botoes
+  Button
+    id: closeButton
+    !text: tr('Fechar')
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    @onClick: self:getParent():hide()

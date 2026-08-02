@@ -1,0 +1,10 @@
+Module
+  name: game_diablo2_cube
+  description: Diablo II Cube
+  author: OTX Diablo II Port
+  website: https://github.com/lluadevill-lab/OTX
+  sandboxed: true
+  scripts: [ game_diablo2_cube ]
+  dependencies: [ client_topmenu ]
+  @onLoad: init()
+  @onUnload: terminate()

@@ -1,5 +1,11 @@
+-- Ensure stamina tables exist - fix nil logout
+if nextUseStaminaTime == nil then nextUseStaminaTime = {} end
+if nextUseStaminaPrey == nil then nextUseStaminaPrey = {} end
+if nextUseXpStamina == nil then nextUseXpStamina = {} end
+
 function onLogout(player)
     local playerId = player:getId()
+    if nextUseStaminaTime == nil then nextUseStaminaTime = {} end
     if nextUseStaminaTime[playerId] ~= nil then
         nextUseStaminaTime[playerId] = nil
     end

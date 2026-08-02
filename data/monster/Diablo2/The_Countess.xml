@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Countess" nameDescription="a the countess" race="undead" experience="500" speed="200" manacost="0">
+  <health now="500" max="1000"/>
+  <look type="96" head="0" body="0" legs="0" feet="0" corpse="5995"/>
+  <targetchange interval="2000" chance="20"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-50" max="-100"/>
+    <attack name="melee" interval="2000" chance="100" min="-20" max="-40"/>
+  </attacks>
+  <defenses defense="20" armor="20">
+    <defense name="healing" interval="2000" chance="15" min="50" max="150"/>
+  </defenses>
+  <elements>
+    <element firePercent="20" icePercent="10" energyPercent="10" earthPercent="30" holyPercent="0" deathPercent="0" physicalPercent="0"/>
+  </elements>
+  <immunities>
+    <immunity name="paralyze" condition="1"/>
+    <immunity name="invisible" condition="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Diablo II The Countess!"/>
+  </voices>
+    <loot>
+    <item id="2086" countmax="1" chance="20000" />
+    <item id="2274" countmax="1" chance="15000" />
+    <item id="2277" countmax="1" chance="12000" />
+    <item id="2260" countmax="1" chance="20000" />
+  </loot>
+</monster>

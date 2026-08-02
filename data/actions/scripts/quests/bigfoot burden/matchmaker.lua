@@ -15,7 +15,7 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	end
 
 	target:transform(18320)
-	addEvent(revertCrystal, 40000, toPosition, 18320, 18321)
+	addEvent(revertCrystal, 2260, toPosition, 18320, 18321)
 
 	if math.random(5) ~= 5 then
 		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, 'This is not the crystal you\'re looking for!')

@@ -9,18 +9,21 @@ table.find = function (table, value)
 			return i
 		end
 	end
-
 	return nil
 end
 
-table.contains = function (txt, str)
-	for i, v in pairs(str) do
-		if(txt:find(v) and not txt:find('(%w+)' .. v) and not txt:find(v .. '(%w+)')) then
-			return true
-		end
-	end
-
-	return false
+-- Robust table.contains that handles both (array, value) and (string, table) usages from OTX and Diablo II port
+table.contains = function(a, b)
+  if type(a) == "table" and (type(b) == "string" or type(b) == "number") then
+    for _, v in pairs(a) do if v == b then return true end end
+    return false
+  elseif type(a) == "string" and type(b) == "table" then
+    for _, v in pairs(b) do if type(v)=="string" and a:find(v,1,true) then return true end end
+    return false
+  elseif type(a) == "table" and type(b) == "table" then
+    for _, v in pairs(b) do for _, w in pairs(a) do if w==v then return true end end end
+    return false
+  else return a==b end
 end
 table.isStrIn = table.contains
 
@@ -31,7 +34,6 @@ table.count = function (table, item)
 			count = count + 1
 		end
 	end
-
 	return count
 end
 table.countElements = table.count
@@ -41,30 +43,25 @@ table.getCombinations = function (table, num)
 	for i = 1, select do
 		a[#a + 1] = i
 	end
-
 	local newthing = {}
 	while(true) do
 		local newrow = {}
 		for i = 1, select do
 			newrow[#newrow + 1] = table[a[i]]
 		end
-
 		newlist[#newlist + 1] = newrow
 		i = select
 		while(a[i] == (number - select + i)) do
 			i = i - 1
 		end
-
 		if(i < 1) then
 			break
 		end
-
 		a[i] = a[i] + 1
 		for j = i, select do
 			a[j] = a[i] + j - i
 		end
 	end
-
 	return newlist
 end
 

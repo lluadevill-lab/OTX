@@ -1,0 +1,14 @@
+MainWindow
+  id: game_diablo2_charmsWindow
+  !text: tr('Charms Inventario')
+  size: 350 300
+  @onEscape: self:hide()
+  Label
+    id: infoLabel
+    text: Charms Inventario - opcode 155 - Clique nos botoes
+  Button
+    id: closeButton
+    !text: tr('Fechar')
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    @onClick: self:getParent():hide()

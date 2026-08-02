@@ -1092,4 +1092,42 @@
 	<monster name="Wild Fury Magic" file="Wild_Magics/wild_fury_magic.xml" />
 	<monster name="Wild Nature Magic" file="Wild_Magics/wild_nature_magic.xml" />
 	<monster name="Wild Water Magic" file="Wild_Magics/wild_water_magic.xml" />
+	<monster name="Fallen" file="Diablo2/Fallen.xml" />
+	<monster name="Zombie" file="Diablo2/Zombie.xml" />
+	<monster name="Skeleton" file="Diablo2/Skeleton.xml" />
+	<monster name="Goatman" file="Diablo2/Goatman.xml" />
+	<monster name="Mummy" file="Diablo2/Mummy.xml" />
+	<monster name="Beetle" file="Diablo2/Beetle.xml" />
+	<monster name="Fetish" file="Diablo2/Fetish.xml" />
+	<monster name="Balrog" file="Diablo2/Balrog.xml" />
+	<monster name="Venom Lord" file="Diablo2/Venom_Lord.xml" />
+	<monster name="Minion of Destruction" file="Diablo2/Minion_of_Destruction.xml" />
+	<monster name="Andariel" file="Diablo2/Andariel.xml" />
+	<monster name="Duriel" file="Diablo2/Duriel.xml" />
+	<monster name="Mephisto" file="Diablo2/Mephisto.xml" />
+	<monster name="Diablo" file="Diablo2/Diablo.xml" />
+	<monster name="Baal" file="Diablo2/Baal.xml" />
+	<monster name="Diablo Clone" file="Diablo2/Diablo_Clone.xml" />
+	<monster name="Uber Mephisto" file="Diablo2/Uber_Mephisto.xml" />
+	<monster name="Uber Diablo" file="Diablo2/Uber_Diablo.xml" />
+	<monster name="Uber Baal" file="Diablo2/Uber_Baal.xml" />
+	<monster name="Lilith" file="Diablo2/Lilith.xml" />
+	<monster name="Uber Duriel" file="Diablo2/Uber_Duriel.xml" />
+	<monster name="Uber Izual" file="Diablo2/Uber_Izual.xml" />
+	<monster name="The Countess" file="Diablo2/The_Countess.xml" />
+	<monster name="The Summoner" file="Diablo2/The_Summoner.xml" />
+	<monster name="Nihlathak" file="Diablo2/Nihlathak.xml" />
+	<monster name="Rakanishu" file="Diablo2/Rakanishu.xml" />
+	<monster name="Rogue Scout" file="Diablo2/Rogue_Scout.xml" />
+	<monster name="Desert Mercenary" file="Diablo2/Desert_Mercenary.xml" />
+	<monster name="Iron Wolf" file="Diablo2/Iron_Wolf.xml" />
+	<monster name="Barbarian Merc" file="Diablo2/Barbarian_Merc.xml" />
+	<monster name="Lightning Sentry" file="Diablo2/Lightning_Sentry.xml" />
+	<monster name="Wake of Fire" file="Diablo2/Wake_of_Fire.xml" />
+	<monster name="Wake of Inferno" file="Diablo2/Wake_of_Inferno.xml" />
+	<monster name="Death Sentry" file="Diablo2/Death_Sentry.xml" />
+	<monster name="Blade Sentinel" file="Diablo2/Blade_Sentinel.xml" />
+	<monster name="Charged Bolt Sentry" file="Diablo2/Charged_Bolt_Sentry.xml" />
+	<monster name="Fire Blast" file="Diablo2/Fire_Blast.xml" />
+	<monster name="Shock Web" file="Diablo2/Shock_Web.xml" />
 </monsters>

@@ -1,0 +1,14 @@
+MainWindow
+  id: game_diablo2_charscreenWindow
+  !text: tr('Character Screen')
+  size: 350 300
+  @onEscape: self:hide()
+  Label
+    id: infoLabel
+    text: Character Screen - opcode 151 - Clique nos botoes
+  Button
+    id: closeButton
+    !text: tr('Fechar')
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    @onClick: self:getParent():hide()
