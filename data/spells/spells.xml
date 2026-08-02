@@ -897,6 +897,20 @@
 	<instant name="twisted shaper ice" words="###391" direction="1" aggressive="1" blockwalls="1" needtarget="0" range="3" needlearn="1" script="monster/twisted shaper ice.lua" />
 
 	<!-- Diablo II class skills -->	<instant group="attack" name="D2_Magic_Arrow" words="d2 magic_arrow" lvl="1" mana="10" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/magic_arrow.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -908,6 +922,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Fire_Arrow" words="d2 fire_arrow" lvl="1" mana="11" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/fire_arrow.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -919,6 +947,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Cold_Arrow" words="d2 cold_arrow" lvl="1" mana="12" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/cold_arrow.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -930,6 +972,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Multiple_Shot" words="d2 multiple_shot" lvl="1" mana="13" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/multiple_shot.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -941,6 +997,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Exploding_Arrow" words="d2 exploding_arrow" lvl="1" mana="14" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/exploding_arrow.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -952,6 +1022,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Ice_Arrow" words="d2 ice_arrow" lvl="1" mana="15" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/ice_arrow.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -963,6 +1047,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Guided_Arrow" words="d2 guided_arrow" lvl="1" mana="16" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/guided_arrow.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -974,6 +1072,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Strafe" words="d2 strafe" lvl="2" mana="17" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/strafe.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -985,6 +1097,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Immolation_Arrow" words="d2 immolation_arrow" lvl="2" mana="18" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/immolation_arrow.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -996,6 +1122,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Freezing_Arrow" words="d2 freezing_arrow" lvl="2" mana="19" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/freezing_arrow.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1007,6 +1147,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Inner_Sight" words="d2 inner_sight" lvl="2" mana="20" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/inner_sight.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1018,6 +1172,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Critical_Strike" words="d2 critical_strike" lvl="2" mana="21" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/critical_strike.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1029,6 +1197,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Dodge" words="d2 dodge" lvl="2" mana="22" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/dodge.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1040,6 +1222,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Slow_Missiles" words="d2 slow_missiles" lvl="2" mana="23" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/slow_missiles.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1051,6 +1247,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Avoid" words="d2 avoid" lvl="3" mana="24" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/avoid.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1062,6 +1272,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Penetrate" words="d2 penetrate" lvl="3" mana="10" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/penetrate.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1073,6 +1297,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Decoy" words="d2 decoy" lvl="3" mana="11" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/decoy.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1084,6 +1322,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Evade" words="d2 evade" lvl="3" mana="12" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/evade.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1095,6 +1347,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Valkyrie" words="d2 valkyrie" lvl="3" mana="13" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/valkyrie.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1106,6 +1372,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Pierce" words="d2 pierce" lvl="3" mana="14" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/pierce.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1117,6 +1397,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Jab" words="d2 jab" lvl="3" mana="15" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/jab.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1128,6 +1422,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Power_Strike" words="d2 power_strike" lvl="4" mana="16" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/power_strike.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1139,6 +1447,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Poison_Javelin" words="d2 poison_javelin" lvl="4" mana="17" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/poison_javelin.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1150,6 +1472,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Lightning_Bolt" words="d2 lightning_bolt" lvl="4" mana="18" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/lightning_bolt.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1161,6 +1497,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Charged_Strike" words="d2 charged_strike" lvl="4" mana="19" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/charged_strike.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1172,6 +1522,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Plague_Javelin" words="d2 plague_javelin" lvl="4" mana="20" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/plague_javelin.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1183,6 +1547,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Lightning_Strike" words="d2 lightning_strike" lvl="4" mana="21" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/lightning_strike.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1194,6 +1572,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Lightning_Fury" words="d2 lightning_fury" lvl="4" mana="22" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/lightning_fury.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1205,6 +1597,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Impale" words="d2 impale" lvl="5" mana="23" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/impale.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1216,6 +1622,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Fend" words="d2 fend" lvl="5" mana="24" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/fend.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1227,6 +1647,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Tiger_Strike" words="d2 tiger_strike" lvl="5" mana="10" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/tiger_strike.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1238,6 +1672,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Dragon_Talon" words="d2 dragon_talon" lvl="5" mana="11" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/dragon_talon.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1249,6 +1697,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Fists_of_Fire" words="d2 fists_of_fire" lvl="5" mana="12" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/fists_of_fire.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1260,6 +1722,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Dragon_Claw" words="d2 dragon_claw" lvl="5" mana="13" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/dragon_claw.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1271,6 +1747,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Cobra_Strike" words="d2 cobra_strike" lvl="5" mana="14" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/cobra_strike.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1282,6 +1772,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Claws_of_Thunder" words="d2 claws_of_thunder" lvl="6" mana="15" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/claws_of_thunder.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1293,6 +1797,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Dragon_Tail" words="d2 dragon_tail" lvl="6" mana="16" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/dragon_tail.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1304,6 +1822,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Blades_of_Ice" words="d2 blades_of_ice" lvl="6" mana="17" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/blades_of_ice.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1315,6 +1847,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Dragon_Flight" words="d2 dragon_flight" lvl="6" mana="18" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/dragon_flight.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1326,6 +1872,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Phoenix_Strike" words="d2 phoenix_strike" lvl="6" mana="19" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/phoenix_strike.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1337,6 +1897,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Claw_Mastery" words="d2 claw_mastery" lvl="6" mana="20" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/claw_mastery.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1348,6 +1922,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Psychic_Hammer" words="d2 psychic_hammer" lvl="6" mana="21" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/psychic_hammer.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1359,6 +1947,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Burst_of_Speed" words="d2 burst_of_speed" lvl="7" mana="22" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/burst_of_speed.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1370,6 +1972,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Weapon_Block" words="d2 weapon_block" lvl="7" mana="23" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/weapon_block.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1381,6 +1997,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Cloak_of_Shadows" words="d2 cloak_of_shadows" lvl="7" mana="24" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/cloak_of_shadows.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1392,6 +2022,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Fade" words="d2 fade" lvl="7" mana="10" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/fade.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1403,6 +2047,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Shadow_Warrior" words="d2 shadow_warrior" lvl="7" mana="11" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/shadow_warrior.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1414,6 +2072,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Mind_Blast" words="d2 mind_blast" lvl="7" mana="12" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/mind_blast.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1425,6 +2097,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Venom" words="d2 venom" lvl="7" mana="13" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/venom.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1436,6 +2122,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Shadow_Master" words="d2 shadow_master" lvl="8" mana="14" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/shadow_master.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1447,6 +2147,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Fire_Blast" words="d2 fire_blast" lvl="8" mana="15" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/fire_blast.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1458,6 +2172,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Shock_Web" words="d2 shock_web" lvl="8" mana="16" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/shock_web.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1469,6 +2197,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Blade_Sentinel" words="d2 blade_sentinel" lvl="8" mana="17" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/blade_sentinel.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1480,6 +2222,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Charged_Bolt_Sentry" words="d2 charged_bolt_sentry" lvl="8" mana="18" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/charged_bolt_sentry.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1491,6 +2247,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Wake_of_Fire" words="d2 wake_of_fire" lvl="8" mana="19" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/wake_of_fire.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1502,6 +2272,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Blade_Fury" words="d2 blade_fury" lvl="8" mana="20" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/blade_fury.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1513,6 +2297,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Lightning_Sentry" words="d2 lightning_sentry" lvl="9" mana="21" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/lightning_sentry.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1524,6 +2322,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Wake_of_Inferno" words="d2 wake_of_inferno" lvl="9" mana="22" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/wake_of_inferno.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1535,6 +2347,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Death_Sentry" words="d2 death_sentry" lvl="9" mana="23" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/death_sentry.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1546,6 +2372,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Blade_Shield" words="d2 blade_shield" lvl="9" mana="24" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/blade_shield.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1557,6 +2397,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Howl" words="d2 howl" lvl="9" mana="10" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/howl.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1568,6 +2422,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Find_Potion" words="d2 find_potion" lvl="9" mana="11" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/find_potion.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1579,6 +2447,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Taunt" words="d2 taunt" lvl="9" mana="12" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/taunt.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1590,6 +2472,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Shout" words="d2 shout" lvl="10" mana="13" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/shout.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1601,6 +2497,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Find_Item" words="d2 find_item" lvl="10" mana="14" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/find_item.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1612,6 +2522,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Battle_Cry" words="d2 battle_cry" lvl="10" mana="15" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/battle_cry.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1623,6 +2547,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Battle_Orders" words="d2 battle_orders" lvl="10" mana="16" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/battle_orders.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1634,6 +2572,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Grim_Ward" words="d2 grim_ward" lvl="10" mana="17" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/grim_ward.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1645,6 +2597,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_War_Cry" words="d2 war_cry" lvl="10" mana="18" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/war_cry.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1656,6 +2622,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Battle_Command" words="d2 battle_command" lvl="10" mana="19" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/battle_command.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1667,6 +2647,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Sword_Mastery" words="d2 sword_mastery" lvl="11" mana="20" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/sword_mastery.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1678,6 +2672,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Axe_Mastery" words="d2 axe_mastery" lvl="11" mana="21" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/axe_mastery.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1689,6 +2697,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Mace_Mastery" words="d2 mace_mastery" lvl="11" mana="22" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/mace_mastery.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1700,6 +2722,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Polearm_Mastery" words="d2 polearm_mastery" lvl="11" mana="23" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/polearm_mastery.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1711,6 +2747,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Throwing_Mastery" words="d2 throwing_mastery" lvl="11" mana="24" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/throwing_mastery.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1722,6 +2772,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Spear_Mastery" words="d2 spear_mastery" lvl="11" mana="10" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/spear_mastery.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1733,6 +2797,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Increased_Stamina" words="d2 increased_stamina" lvl="11" mana="11" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/increased_stamina.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1744,6 +2822,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Iron_Skin" words="d2 iron_skin" lvl="12" mana="12" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/iron_skin.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1755,6 +2847,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Increased_Speed" words="d2 increased_speed" lvl="12" mana="13" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/increased_speed.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1766,6 +2872,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Natural_Resistance" words="d2 natural_resistance" lvl="12" mana="14" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/natural_resistance.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1777,6 +2897,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Bash" words="d2 bash" lvl="12" mana="15" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/bash.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1788,6 +2922,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Leap" words="d2 leap" lvl="12" mana="16" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/leap.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1799,6 +2947,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Double_Swing" words="d2 double_swing" lvl="12" mana="17" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/double_swing.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1810,6 +2972,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Stun" words="d2 stun" lvl="12" mana="18" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/stun.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1821,6 +2997,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Double_Throw" words="d2 double_throw" lvl="13" mana="19" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/double_throw.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1832,6 +3022,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Leap_Attack" words="d2 leap_attack" lvl="13" mana="20" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/leap_attack.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1843,6 +3047,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Concentrate" words="d2 concentrate" lvl="13" mana="21" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/concentrate.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1854,6 +3072,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Frenzy" words="d2 frenzy" lvl="13" mana="22" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/frenzy.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1865,6 +3097,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Whirlwind" words="d2 whirlwind" lvl="13" mana="23" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/whirlwind.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1876,6 +3122,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Berserk" words="d2 berserk" lvl="13" mana="24" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/berserk.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1887,6 +3147,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Firestorm" words="d2 firestorm" lvl="13" mana="10" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/firestorm.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1898,6 +3172,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Molten_Boulder" words="d2 molten_boulder" lvl="14" mana="11" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/molten_boulder.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1909,6 +3197,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Arctic_Blast" words="d2 arctic_blast" lvl="14" mana="12" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/arctic_blast.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1920,6 +3222,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Fissure" words="d2 fissure" lvl="14" mana="13" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/fissure.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1931,6 +3247,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Cyclone_Armor" words="d2 cyclone_armor" lvl="14" mana="14" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/cyclone_armor.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1942,6 +3272,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Twister" words="d2 twister" lvl="14" mana="15" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/twister.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1953,6 +3297,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Volcano" words="d2 volcano" lvl="14" mana="16" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/volcano.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1964,6 +3322,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Tornado" words="d2 tornado" lvl="14" mana="17" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/tornado.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1975,6 +3347,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Armageddon" words="d2 armageddon" lvl="15" mana="18" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/armageddon.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1986,6 +3372,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Hurricane" words="d2 hurricane" lvl="15" mana="19" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/hurricane.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -1997,6 +3397,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Werewolf" words="d2 werewolf" lvl="15" mana="20" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/werewolf.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2008,6 +3422,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Lycanthropy" words="d2 lycanthropy" lvl="15" mana="21" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/lycanthropy.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2019,6 +3447,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Werebear" words="d2 werebear" lvl="15" mana="22" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/werebear.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2030,6 +3472,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Feral_Rage" words="d2 feral_rage" lvl="15" mana="23" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/feral_rage.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2041,6 +3497,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Maul" words="d2 maul" lvl="15" mana="24" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/maul.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2052,6 +3522,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Rabies" words="d2 rabies" lvl="16" mana="10" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/rabies.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2063,6 +3547,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Fire_Claws" words="d2 fire_claws" lvl="16" mana="11" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/fire_claws.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2074,6 +3572,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Hunger" words="d2 hunger" lvl="16" mana="12" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/hunger.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2085,6 +3597,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Shock_Wave" words="d2 shock_wave" lvl="16" mana="13" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/shock_wave.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2096,6 +3622,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Fury" words="d2 fury" lvl="16" mana="14" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/fury.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2107,6 +3647,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Raven" words="d2 raven" lvl="16" mana="15" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/raven.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2118,6 +3672,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Poison_Creeper" words="d2 poison_creeper" lvl="16" mana="16" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/poison_creeper.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2129,6 +3697,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Oak_Sage" words="d2 oak_sage" lvl="17" mana="17" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/oak_sage.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2140,6 +3722,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Summon_Spirit_Wolf" words="d2 summon_spirit_wolf" lvl="17" mana="18" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/summon_spirit_wolf.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2151,6 +3747,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Carrion_Vine" words="d2 carrion_vine" lvl="17" mana="19" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/carrion_vine.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2162,6 +3772,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Heart_of_Wolverine" words="d2 heart_of_wolverine" lvl="17" mana="20" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/heart_of_wolverine.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2173,6 +3797,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Summon_Dire_Wolf" words="d2 summon_dire_wolf" lvl="17" mana="21" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/summon_dire_wolf.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2184,6 +3822,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Solar_Creeper" words="d2 solar_creeper" lvl="17" mana="22" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/solar_creeper.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2195,6 +3847,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Spirit_of_Barbs" words="d2 spirit_of_barbs" lvl="17" mana="23" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/spirit_of_barbs.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2206,6 +3872,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Summon_Grizzly" words="d2 summon_grizzly" lvl="18" mana="24" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/summon_grizzly.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2217,6 +3897,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Skeleton_Mastery" words="d2 skeleton_mastery" lvl="18" mana="10" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/skeleton_mastery.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2228,6 +3922,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Raise_Skeleton" words="d2 raise_skeleton" lvl="18" mana="11" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/raise_skeleton.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2239,6 +3947,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Clay_Golem" words="d2 clay_golem" lvl="18" mana="12" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/clay_golem.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2250,6 +3972,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Golem_Mastery" words="d2 golem_mastery" lvl="18" mana="13" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/golem_mastery.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2261,6 +3997,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Raise_Skeletal_Mage" words="d2 raise_skeletal_mage" lvl="18" mana="14" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/raise_skeletal_mage.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2272,6 +4022,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Blood_Golem" words="d2 blood_golem" lvl="18" mana="15" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/blood_golem.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2283,6 +4047,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Summon_Resist" words="d2 summon_resist" lvl="19" mana="16" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/summon_resist.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2294,6 +4072,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Iron_Golem" words="d2 iron_golem" lvl="19" mana="17" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/iron_golem.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2305,6 +4097,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Fire_Golem" words="d2 fire_golem" lvl="19" mana="18" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/fire_golem.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2316,6 +4122,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Revive" words="d2 revive" lvl="19" mana="19" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/revive.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2327,6 +4147,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Teeth" words="d2 teeth" lvl="19" mana="20" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/teeth.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2338,6 +4172,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Bone_Armor" words="d2 bone_armor" lvl="19" mana="21" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/bone_armor.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2349,6 +4197,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Poison_Dagger" words="d2 poison_dagger" lvl="19" mana="22" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/poison_dagger.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2360,6 +4222,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Corpse_Explosion" words="d2 corpse_explosion" lvl="20" mana="23" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/corpse_explosion.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2371,6 +4247,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Bone_Wall" words="d2 bone_wall" lvl="20" mana="24" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/bone_wall.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2382,6 +4272,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Poison_Explosion" words="d2 poison_explosion" lvl="20" mana="10" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/poison_explosion.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2393,6 +4297,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Bone_Spear" words="d2 bone_spear" lvl="20" mana="11" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/bone_spear.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2404,6 +4322,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Bone_Prison" words="d2 bone_prison" lvl="20" mana="12" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/bone_prison.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2415,6 +4347,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Poison_Nova" words="d2 poison_nova" lvl="20" mana="13" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/poison_nova.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2426,6 +4372,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Bone_Spirit" words="d2 bone_spirit" lvl="20" mana="14" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/bone_spirit.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2437,6 +4397,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Amplify_Damage" words="d2 amplify_damage" lvl="21" mana="15" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/amplify_damage.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2448,6 +4422,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Dim_Vision" words="d2 dim_vision" lvl="21" mana="16" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/dim_vision.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2459,6 +4447,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Weaken" words="d2 weaken" lvl="21" mana="17" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/weaken.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2470,6 +4472,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Iron_Maiden" words="d2 iron_maiden" lvl="21" mana="18" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/iron_maiden.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2481,6 +4497,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Terror" words="d2 terror" lvl="21" mana="19" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/terror.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2492,6 +4522,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Confuse" words="d2 confuse" lvl="21" mana="20" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/confuse.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2503,6 +4547,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Life_Tap" words="d2 life_tap" lvl="21" mana="21" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/life_tap.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2514,6 +4572,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Attract" words="d2 attract" lvl="22" mana="22" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/attract.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2525,6 +4597,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Decrepify" words="d2 decrepify" lvl="22" mana="23" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/decrepify.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2536,6 +4622,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Lower_Resist" words="d2 lower_resist" lvl="22" mana="24" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/lower_resist.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2547,6 +4647,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Prayer" words="d2 prayer" lvl="22" mana="10" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/prayer.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2558,6 +4672,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Resist_Fire" words="d2 resist_fire" lvl="22" mana="11" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/resist_fire.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2569,6 +4697,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Defiance" words="d2 defiance" lvl="22" mana="12" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/defiance.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2580,6 +4722,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Resist_Cold" words="d2 resist_cold" lvl="22" mana="13" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/resist_cold.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2591,6 +4747,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Cleansing" words="d2 cleansing" lvl="23" mana="14" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/cleansing.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2602,6 +4772,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Resist_Lightning" words="d2 resist_lightning" lvl="23" mana="15" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/resist_lightning.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2613,6 +4797,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Vigor" words="d2 vigor" lvl="23" mana="16" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/vigor.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2624,6 +4822,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Meditation" words="d2 meditation" lvl="23" mana="17" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/meditation.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2635,6 +4847,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Redemption" words="d2 redemption" lvl="23" mana="18" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/redemption.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2646,6 +4872,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Salvation" words="d2 salvation" lvl="23" mana="19" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/salvation.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2657,6 +4897,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Might" words="d2 might" lvl="23" mana="20" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/might.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2668,6 +4922,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Holy_Fire" words="d2 holy_fire" lvl="24" mana="21" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/holy_fire.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2679,6 +4947,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Thorns" words="d2 thorns" lvl="24" mana="22" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/thorns.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2690,6 +4972,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Blessed_Aim" words="d2 blessed_aim" lvl="24" mana="23" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/blessed_aim.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2701,6 +4997,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Concentration" words="d2 concentration" lvl="24" mana="24" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/concentration.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2712,6 +5022,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Holy_Freeze" words="d2 holy_freeze" lvl="24" mana="10" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/holy_freeze.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2723,6 +5047,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Holy_Shock" words="d2 holy_shock" lvl="24" mana="11" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/holy_shock.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2734,6 +5072,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Sanctuary" words="d2 sanctuary" lvl="24" mana="12" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/sanctuary.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2745,6 +5097,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Fanaticism" words="d2 fanaticism" lvl="25" mana="13" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/fanaticism.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2756,6 +5122,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Conviction" words="d2 conviction" lvl="25" mana="14" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/conviction.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2767,6 +5147,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Sacrifice" words="d2 sacrifice" lvl="25" mana="15" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/sacrifice.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2778,6 +5172,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Smite" words="d2 smite" lvl="25" mana="16" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/smite.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2789,6 +5197,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Holy_Bolt" words="d2 holy_bolt" lvl="25" mana="17" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/holy_bolt.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2800,6 +5222,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Zeal" words="d2 zeal" lvl="25" mana="18" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/zeal.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2811,6 +5247,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Charge" words="d2 charge" lvl="25" mana="19" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/charge.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2822,6 +5272,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Vengeance" words="d2 vengeance" lvl="26" mana="20" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/vengeance.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2833,6 +5297,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Blessed_Hammer" words="d2 blessed_hammer" lvl="26" mana="21" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/blessed_hammer.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2844,6 +5322,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Conversion" words="d2 conversion" lvl="26" mana="22" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/conversion.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2855,6 +5347,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Holy_Shield" words="d2 holy_shield" lvl="26" mana="23" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/holy_shield.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2866,6 +5372,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Fist_of_the_Heavens" words="d2 fist_of_the_heavens" lvl="26" mana="24" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/fist_of_the_heavens.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2877,6 +5397,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Cold_Bolt" words="d2 cold_bolt" lvl="26" mana="10" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/cold_bolt.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2888,6 +5422,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Ice_Bolt" words="d2 ice_bolt" lvl="26" mana="11" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/ice_bolt.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2899,6 +5447,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Frost_Nova" words="d2 frost_nova" lvl="27" mana="12" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/frost_nova.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2910,6 +5472,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Ice_Blast" words="d2 ice_blast" lvl="27" mana="13" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/ice_blast.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2921,6 +5497,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Shiver_Armor" words="d2 shiver_armor" lvl="27" mana="14" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/shiver_armor.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2932,6 +5522,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Glacial_Spike" words="d2 glacial_spike" lvl="27" mana="15" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/glacial_spike.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2943,6 +5547,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Blizzard" words="d2 blizzard" lvl="27" mana="16" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/blizzard.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2954,6 +5572,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Chilling_Armor" words="d2 chilling_armor" lvl="27" mana="17" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/chilling_armor.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2965,6 +5597,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Frozen_Orb" words="d2 frozen_orb" lvl="27" mana="18" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/frozen_orb.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2976,6 +5622,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Cold_Mastery" words="d2 cold_mastery" lvl="28" mana="19" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/cold_mastery.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2987,6 +5647,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Charged_Bolt" words="d2 charged_bolt" lvl="28" mana="20" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/charged_bolt.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -2998,6 +5672,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Static_Field" words="d2 static_field" lvl="28" mana="21" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/static_field.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3009,6 +5697,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Telekinesis" words="d2 telekinesis" lvl="28" mana="22" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/telekinesis.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3020,6 +5722,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Nova" words="d2 nova" lvl="28" mana="23" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/nova.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3031,6 +5747,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Lightning" words="d2 lightning" lvl="28" mana="24" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/lightning.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3042,6 +5772,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Chain_Lightning" words="d2 chain_lightning" lvl="28" mana="10" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/chain_lightning.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3053,6 +5797,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Teleport" words="d2 teleport" lvl="29" mana="11" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/teleport.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3064,6 +5822,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Thunder_Storm" words="d2 thunder_storm" lvl="29" mana="12" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/thunder_storm.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3075,6 +5847,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Energy_Shield" words="d2 energy_shield" lvl="29" mana="13" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/energy_shield.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3086,6 +5872,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Lightning_Mastery" words="d2 lightning_mastery" lvl="29" mana="14" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/lightning_mastery.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3097,6 +5897,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Fire_Bolt" words="d2 fire_bolt" lvl="29" mana="15" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/fire_bolt.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3108,6 +5922,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Warmth" words="d2 warmth" lvl="29" mana="16" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/warmth.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3119,6 +5947,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Inferno" words="d2 inferno" lvl="29" mana="17" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/inferno.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3130,6 +5972,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Blaze" words="d2 blaze" lvl="30" mana="18" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/blaze.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3141,6 +5997,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Fire_Ball" words="d2 fire_ball" lvl="30" mana="19" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/fire_ball.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3152,6 +6022,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Fire_Wall" words="d2 fire_wall" lvl="30" mana="20" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/fire_wall.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3163,6 +6047,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Enchant" words="d2 enchant" lvl="30" mana="21" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/enchant.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3174,6 +6072,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Meteor" words="d2 meteor" lvl="30" mana="22" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/meteor.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3185,6 +6097,20 @@
 	</instant>
 
 	<instant group="support" name="D2_Fire_Mastery" words="d2 fire_mastery" lvl="30" mana="23" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/fire_mastery.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
@@ -3196,6 +6122,20 @@
 	</instant>
 
 	<instant group="attack" name="D2_Hydra" words="d2 hydra" lvl="30" mana="24" prem="0" cooldown="2000" groupcooldown="1000" needlearn="0" script="diablo2/hydra.lua">
+		<vocation name="Amazon"/>
+		<vocation name="Assassin"/>
+		<vocation name="Barbarian"/>
+		<vocation name="Druid"/>
+		<vocation name="Necromancer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Sorceress"/>
+		<vocation name="Amazon Elite"/>
+		<vocation name="Assassin Master"/>
+		<vocation name="Barbarian King"/>
+		<vocation name="Arch Druid"/>
+		<vocation name="Necromancer Lord"/>
+		<vocation name="Holy Paladin"/>
+		<vocation name="Arch Sorceress"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Druid"/>
 		<vocation name="Paladin"/>
