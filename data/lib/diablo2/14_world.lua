@@ -197,7 +197,7 @@ function D2C.freezeDuration(baseSeconds, player, sourceIsHolyFreeze)
     return 0 -- Cannot Be Frozen anulates completely blue slow, but not Holy Freeze aura
   end
   local diff = D2C.getAttr(player,"DIFF")
-  local mult = {[0]=1,[1]=0.5,[2]=0.25}[diff] or 1
+  local mult = ({[0]=1,[1]=0.5,[2]=0.25})[diff] or 1
   return baseSeconds*mult
 end
 function D2C.plrReduction(basePoisonSeconds, player)
